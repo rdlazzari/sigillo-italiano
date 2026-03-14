@@ -1,0 +1,29 @@
+<svg width="1200" height="1480" viewBox="0 0 1200 1480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1480" fill="#F7F1E8"/>
+  <rect x="56" y="56" width="1088" height="1368" rx="24" stroke="#181410" stroke-opacity="0.14"/>
+  <rect x="96" y="96" width="1008" height="1288" rx="16" fill="#FBF7F1" stroke="#181410" stroke-opacity="0.08"/>
+  <path d="M96 346H1104" stroke="#181410" stroke-opacity="0.14"/>
+  <path d="M96 1080H1104" stroke="#181410" stroke-opacity="0.14"/>
+  <path d="M600 96V1384" stroke="#181410" stroke-opacity="0.08"/>
+  <circle cx="876" cy="514" r="182" stroke="#181410" stroke-opacity="0.18" stroke-width="1.5"/>
+  <circle cx="876" cy="514" r="146" stroke="#181410" stroke-opacity="0.1"/>
+  <path d="M829 424H923V524.308C923 555.57 906.358 584.463 879.315 600.094L876 602.011L872.685 600.094C845.642 584.463 829 555.57 829 524.308V424Z" stroke="#181410" stroke-width="4"/>
+  <circle cx="876" cy="497" r="9" fill="#181410"/>
+  <path d="M876 497V538" stroke="#181410" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M146 198H442" stroke="#181410" stroke-opacity="0.26"/>
+  <path d="M146 232H362" stroke="#181410" stroke-opacity="0.16"/>
+  <path d="M146 266H320" stroke="#181410" stroke-opacity="0.16"/>
+  <path d="M670 1176H1006" stroke="#181410" stroke-opacity="0.24"/>
+  <path d="M670 1210H960" stroke="#181410" stroke-opacity="0.14"/>
+  <path d="M670 1244H902" stroke="#181410" stroke-opacity="0.14"/>
+  <rect x="148" y="460" width="272" height="394" rx="136" fill="#E8DFD2"/>
+  <rect x="186" y="500" width="196" height="314" rx="98" stroke="#181410" stroke-opacity="0.18" stroke-width="1.5"/>
+  <path d="M186 657H382" stroke="#181410" stroke-opacity="0.12"/>
+  <path d="M240 460V854" stroke="#181410" stroke-opacity="0.08"/>
+  <path d="M328 460V854" stroke="#181410" stroke-opacity="0.08"/>
+  <path d="M742 288C742 243.817 777.817 208 822 208H930C974.183 208 1010 243.817 1010 288V288H742V288Z" fill="#E3D7C7"/>
+  <path d="M190 1178C262.263 1140.4 333.315 1121.6 403.156 1121.6C472.998 1121.6 547.279 1138.4 626 1172" stroke="#181410" stroke-opacity="0.24" stroke-width="1.5"/>
+  <path d="M186 1240H472" stroke="#181410" stroke-opacity="0.18"/>
+  <path d="M186 1274H430" stroke="#181410" stroke-opacity="0.12"/>
+  <path d="M186 1308H392" stroke="#181410" stroke-opacity="0.12"/>
+</svg>
