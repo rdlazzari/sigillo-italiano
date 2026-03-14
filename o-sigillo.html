@@ -5,21 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>O Sigillo - Sigillo Italiano</title>
   <meta name="description" content="A filosofia e os critérios que orientam o Sigillo Italiano.">
+  <link rel="icon" type="image/svg+xml" href="assets/sigillo-italiano-mark.svg">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page">
-    <header class="masthead">
-      <div class="sigillo-id">
-        <img class="sigillo-mark-image" src="assets/sigillo-italiano-mark.svg" alt="Insígnia do Sigillo Italiano">
-        <div class="sigillo-name">
-          <strong>Sigillo Italiano</strong>
-          <span>Curadoria cultural ítalo-brasileira</span>
-          <span>São Paulo / Mantova</span>
-        </div>
-      </div>
-      <nav class="nav" aria-label="Principal">
-        <div class="nav-group">
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand brand-symbol" href="index.html" aria-label="Sigillo Italiano">
+        <img class="brand-mark" src="assets/sigillo-italiano-mark.svg" alt="Insígnia do Sigillo Italiano">
+      </a>
+      <nav class="site-nav" aria-label="Principal">
+        <div class="nav-links">
           <a href="index.html">Home</a>
           <a class="is-active" href="o-sigillo.html">O Sigillo</a>
           <a href="edicao-2026.html">Edição 2026</a>
@@ -35,77 +31,56 @@
     </header>
 
     <main>
-      <section class="page-intro">
-        <div class="section-label">
-          <p class="section-index">Documento</p>
+      <section class="hero section">
+        <p class="meta">O Sigillo</p>
+        <h1>Um reconhecimento editorial para aquilo que preserva autenticidade, método, tradição e integridade.</h1>
+      </section>
+
+      <section class="section editorial-grid">
+        <div class="section-header">
+          <p class="meta">Posição</p>
         </div>
-        <div class="page-body">
-          <h1 class="page-title">O Sigillo</h1>
-          <p>
-            Um reconhecimento editorial para aquilo que preserva autenticidade, método, tradição e integridade sem
-            recorrer à encenação cultural.
+        <div class="section-body two-column-copy">
+          <p class="reading-column">
+            O Sigillo Italiano não procura validar desempenho técnico, industrial ou comercial. Seu papel é distinguir
+            aquilo que carrega espessura cultural verdadeira, perceptível na origem, no gesto e na consistência do fazer.
+          </p>
+          <p class="reading-column">
+            Trata-se de uma escolha de natureza crítica. Reconhecer, aqui, é tornar visível o que merece ser separado
+            do genérico, do imitativo e do meramente decorativo.
           </p>
         </div>
       </section>
 
-      <section class="page-grid">
-        <div class="section-label">
-          <p class="section-index">Posição</p>
+      <section class="section editorial-grid">
+        <div class="section-header">
+          <p class="meta">Critérios</p>
         </div>
-        <div class="section-body two-col">
-          <p>
-            O Sigillo Italiano não procura validar desempenho técnico, industrial ou comercial. Seu papel é
-            distinguir aquilo que carrega espessura cultural verdadeira, perceptível na origem, no gesto e na
-            consistência do fazer.
-          </p>
-          <p>
-            Trata-se de uma escolha de natureza crítica. Reconhecer, aqui, é tornar visível o que merece ser
-            separado do genérico, do imitativo e do meramente decorativo.
-          </p>
-        </div>
-      </section>
-
-      <section class="page-grid">
-        <div class="section-label">
-          <p class="section-index">Critérios</p>
-        </div>
-        <div class="criteria-list">
-          <article class="criteria-item">
-            <p class="recognition-number">01</p>
-            <div>
-              <h2 class="recognition-title">Autenticidade</h2>
-              <p>Relação real com repertórios, saberes, linguagens e valores da cultura italiana.</p>
-            </div>
+        <div class="principles-grid">
+          <article class="principle-item">
+            <h2>Autenticidade</h2>
+            <p>Relação real com repertórios, saberes, linguagens e valores da cultura italiana.</p>
           </article>
-          <article class="criteria-item">
-            <p class="recognition-number">02</p>
-            <div>
-              <h2 class="recognition-title">Método</h2>
-              <p>Presença de disciplina, técnica, paciência e rigor no modo de conceber e executar.</p>
-            </div>
+          <article class="principle-item">
+            <h2>Método</h2>
+            <p>Presença de disciplina, técnica, paciência e rigor no modo de conceber e executar.</p>
           </article>
-          <article class="criteria-item">
-            <p class="recognition-number">03</p>
-            <div>
-              <h2 class="recognition-title">Tradição</h2>
-              <p>Continuidade viva com uma herança cultural, sem caricatura ou folclore superficial.</p>
-            </div>
+          <article class="principle-item">
+            <h2>Tradição</h2>
+            <p>Continuidade viva com uma herança cultural, sem caricatura ou folclore superficial.</p>
           </article>
-          <article class="criteria-item">
-            <p class="recognition-number">04</p>
-            <div>
-              <h2 class="recognition-title">Integridade</h2>
-              <p>Coerência entre origem, discurso, materialidade, conduta e forma de apresentação.</p>
-            </div>
+          <article class="principle-item">
+            <h2>Integridade</h2>
+            <p>Coerência entre origem, discurso, materialidade, conduta e forma de apresentação.</p>
           </article>
         </div>
       </section>
 
-      <section class="page-grid">
-        <div class="section-label">
-          <p class="section-index">Processo</p>
+      <section class="section editorial-grid">
+        <div class="section-header">
+          <p class="meta">Processo</p>
         </div>
-        <div class="section-body">
+        <div class="section-body reading-column">
           <p>
             Não há inscrição. A curadoria identifica os casos, estuda com atenção cada contexto e decide
             independentemente. A escassez de reconhecimentos não é estratégia de valor percebido; é apenas a
@@ -115,10 +90,15 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <span>Sigillo Italiano</span>
-      <span>O Sigillo</span>
-      <span>2026</span>
+    <footer class="site-footer">
+      <div class="footer-logo" aria-label="Sigillo Italiano">
+        <img class="footer-logo-full" src="assets/sigillo-italiano-logo-official.png" alt="Logotipo oficial do Sigillo Italiano">
+      </div>
+      <div class="footer-meta">
+        <span>Curadoria cultural ítalo-brasileira</span>
+        <span>São Paulo / Mantova</span>
+        <span>MMXXVI</span>
+      </div>
     </footer>
   </div>
 </body>
