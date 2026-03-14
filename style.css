@@ -52,7 +52,7 @@ a {
 .page {
   width: var(--page);
   margin: 0 auto;
-  padding: 18px 0 56px;
+  padding: 12px 0 56px;
   position: relative;
 }
 
@@ -60,16 +60,16 @@ a {
   content: "";
   position: absolute;
   inset: 98px 0 auto;
-  height: 440px;
+  height: 360px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0));
   z-index: -1;
 }
 
 .masthead {
   display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 28px;
-  padding: 22px 0 28px;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+  padding: 16px 0 22px;
   border-bottom: 1px solid var(--rule-strong);
 }
 
@@ -120,16 +120,16 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
-  gap: 18px 24px;
+  gap: 14px 20px;
   align-items: flex-start;
-  padding-top: 4px;
+  padding-top: 2px;
 }
 
 .nav-group,
 .lang-switch {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px 20px;
+  gap: 14px 18px;
 }
 
 .nav a,
@@ -154,9 +154,9 @@ a {
 .page-grid,
 .page-intro {
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  gap: 32px;
-  padding: 34px 0 38px;
+  grid-template-columns: 220px minmax(0, 820px);
+  gap: 28px;
+  padding: 26px 0 30px;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -175,26 +175,26 @@ a {
 }
 
 .home-intro .section-label {
-  padding-top: 12px;
+  padding-top: 8px;
 }
 
 .intro-body {
   display: grid;
-  gap: 22px;
+  gap: 18px;
   align-content: start;
 }
 
 .intro-heading {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 132px;
-  gap: 34px;
+  grid-template-columns: minmax(0, 1fr) 112px;
+  gap: 24px;
   align-items: start;
-  padding-bottom: 18px;
+  padding-bottom: 14px;
   border-bottom: 1px solid var(--rule);
 }
 
 .intro-kicker {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   color: var(--muted);
   font-size: 0.72rem;
   letter-spacing: 0.22em;
@@ -211,14 +211,14 @@ a {
 .intro-title {
   max-width: 7ch;
   margin: 0;
-  font-size: clamp(4.6rem, 8.5vw, 8.6rem);
-  line-height: 0.82;
+  font-size: clamp(4rem, 7.2vw, 7rem);
+  line-height: 0.84;
   letter-spacing: -0.06em;
 }
 
 .intro-mark {
-  width: 132px;
-  margin: 0;
+  width: 112px;
+  margin: 8px 0 0;
   padding: 0;
 }
 
@@ -230,7 +230,7 @@ a {
 .intro-statement {
   max-width: 15ch;
   margin: 0;
-  font-size: clamp(2.2rem, 3.2vw, 3.7rem);
+  font-size: clamp(1.9rem, 2.6vw, 3rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
 }
@@ -238,8 +238,8 @@ a {
 .intro-note {
   max-width: 30ch;
   margin: 0;
-  font-size: 1.14rem;
-  line-height: 1.78;
+  font-size: 1.06rem;
+  line-height: 1.74;
 }
 
 .motion-stage {
@@ -299,7 +299,7 @@ a {
 
 .home-index {
   align-items: start;
-  padding-top: 22px;
+  padding-top: 18px;
 }
 
 .index-list {
@@ -311,7 +311,7 @@ a {
   grid-template-columns: 74px minmax(220px, 0.7fr) minmax(0, 1fr);
   gap: 20px 24px;
   align-items: start;
-  padding: 16px 0;
+  padding: 14px 0;
   border-top: 1px solid var(--rule);
   text-decoration: none;
 }
@@ -340,12 +340,12 @@ a {
 
 .section-body {
   display: grid;
-  gap: 26px;
+  gap: 20px;
 }
 
 .section-body.two-col {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px 32px;
+  gap: 22px 28px;
 }
 
 .section-body p,
@@ -354,12 +354,13 @@ a {
 .contact-address,
 .bio-note {
   margin: 0;
-  font-size: 1.16rem;
-  line-height: 1.84;
+  font-size: 1.08rem;
+  line-height: 1.8;
 }
 
 .page-intro {
   align-items: start;
+  padding-top: 24px;
 }
 
 .page-title {
@@ -372,7 +373,7 @@ a {
 
 .page-body {
   display: grid;
-  gap: 24px;
+  gap: 20px;
   max-width: 40ch;
 }
 
@@ -387,7 +388,7 @@ a {
   grid-template-columns: 74px minmax(0, 1fr);
   gap: 22px;
   align-items: start;
-  padding: 18px 0;
+  padding: 16px 0;
   border-top: 1px solid var(--rule);
 }
 
@@ -414,7 +415,7 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  padding-top: 18px;
+  padding-top: 14px;
   color: var(--muted);
   font-size: 0.72rem;
   letter-spacing: 0.18em;
@@ -442,7 +443,7 @@ a {
   }
 
   .intro-mark {
-    width: 120px;
+    width: 104px;
   }
 }
 
