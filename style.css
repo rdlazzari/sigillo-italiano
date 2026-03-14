@@ -259,7 +259,15 @@ li {
 }
 
 .section-display {
-  max-width: 11ch;
+  max-width: 760px;
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 0.96;
+  letter-spacing: -0.045em;
+}
+
+.section-display span {
+  display: block;
+  white-space: nowrap;
 }
 
 .place-line {
@@ -368,5 +376,9 @@ li {
   p,
   li {
     font-size: 0.98rem;
+  }
+
+  .section-display span {
+    white-space: normal;
   }
 }
