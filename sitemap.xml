@@ -1,47 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.sigilloitaliano.org/</loc>
-    <lastmod>2026-03-14</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.sigilloitaliano.org/it/</loc>
     <lastmod>2026-03-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.sigilloitaliano.org/it/il-sigillo.html</loc>
-    <lastmod>2026-03-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.sigilloitaliano.org/it/registro.html</loc>
-    <lastmod>2026-03-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.sigilloitaliano.org/it/edizione-2026.html</loc>
-    <lastmod>2026-03-14</lastmod>
-  </url>
-  <url>
-    <loc>https://www.sigilloitaliano.org/it/curatela.html</loc>
-    <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/"/>
   </url>
   <url>
     <loc>https://www.sigilloitaliano.org/pt/</loc>
     <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/"/>
+  </url>
+  <url>
+    <loc>https://www.sigilloitaliano.org/it/il-sigillo.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/il-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/o-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/il-sigillo.html"/>
   </url>
   <url>
     <loc>https://www.sigilloitaliano.org/pt/o-sigillo.html</loc>
     <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/il-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/o-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/il-sigillo.html"/>
+  </url>
+  <url>
+    <loc>https://www.sigilloitaliano.org/it/registro.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/registro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/registro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/registro.html"/>
   </url>
   <url>
     <loc>https://www.sigilloitaliano.org/pt/registro.html</loc>
     <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/registro.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/registro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/registro.html"/>
+  </url>
+  <url>
+    <loc>https://www.sigilloitaliano.org/it/edizione-2026.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/edizione-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/edicao-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/edizione-2026.html"/>
   </url>
   <url>
     <loc>https://www.sigilloitaliano.org/pt/edicao-2026.html</loc>
     <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/edizione-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/edicao-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/edizione-2026.html"/>
+  </url>
+  <url>
+    <loc>https://www.sigilloitaliano.org/it/curatela.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/curatela.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/curadoria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/curatela.html"/>
   </url>
   <url>
     <loc>https://www.sigilloitaliano.org/pt/curadoria.html</loc>
     <lastmod>2026-03-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/curatela.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/curadoria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/curatela.html"/>
   </url>
 </urlset>
