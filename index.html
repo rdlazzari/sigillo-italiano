@@ -8,18 +8,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page">
-    <header class="masthead">
-      <div class="sigillo-id">
-        <img class="sigillo-mark-image" src="assets/sigillo-italiano-mark.svg" alt="Insígnia do Sigillo Italiano">
-        <div class="sigillo-name">
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Sigillo Italiano">
+        <img class="brand-mark" src="assets/sigillo-italiano-mark.svg" alt="Insígnia do Sigillo Italiano">
+        <span class="brand-text">
           <strong>Sigillo Italiano</strong>
           <span>Curadoria cultural ítalo-brasileira</span>
-          <span>São Paulo / Mantova</span>
-        </div>
-      </div>
-      <nav class="nav" aria-label="Principal">
-        <div class="nav-group">
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Principal">
+        <div class="nav-links">
           <a class="is-active" href="index.html">Home</a>
           <a href="o-sigillo.html">O Sigillo</a>
           <a href="edicao-2026.html">Edição 2026</a>
@@ -35,122 +35,100 @@
     </header>
 
     <main>
-      <section class="hero-stage motion-stage">
-        <aside class="hero-meta">
-          <p class="section-index reveal reveal-1">Arquivo inaugural</p>
-          <p class="meta-line reveal reveal-2">Edição MMXXVI</p>
-          <p class="hero-meta-note reveal reveal-3">
-            Um reconhecimento editorial para aquilo que preserva verdade de origem, rigor de método e integridade cultural.
-          </p>
-        </aside>
+      <section class="hero section">
+        <p class="meta">Arquivo inaugural · Edição MMXXVI</p>
+        <h1>
+          O que é verdadeiramente italiano não precisa se promover.
+          <br>Precisa ser reconhecido.
+        </h1>
+      </section>
 
-        <div class="hero-main">
-          <div class="hero-copy">
-            <p class="intro-kicker reveal reveal-2">Documento de abertura</p>
-            <h1 class="hero-title reveal reveal-3">Sigillo Italiano</h1>
-            <p class="hero-statement reveal reveal-4">O que é verdadeiro não se anuncia. Permanece.</p>
-            <p class="hero-note reveal reveal-5">
-              O Sigillo Italiano é uma curadoria cultural ítalo-brasileira dedicada a distinguir produtos,
-              produtores e iniciativas cuja italianidade se manifesta com coerência de origem, método e forma.
+      <section class="section editorial-grid intro-section">
+        <div class="section-header">
+          <p class="meta">Introdução</p>
+        </div>
+        <div class="section-body reading-column-wide">
+          <p class="lead">
+            O Sigillo Italiano é uma curadoria cultural ítalo-brasileira independente. Não se trata de prêmio,
+            marketplace ou certificação técnica, mas de um selo editorial de reconhecimento para aquilo que preserva
+            autenticidade, método, tradição e integridade.
+          </p>
+        </div>
+      </section>
+
+      <section class="section editorial-grid">
+        <div class="section-header">
+          <p class="meta">O Sigillo</p>
+        </div>
+        <div class="section-body two-column-copy">
+          <p class="reading-column">
+            O Sigillo nasce da convicção de que a verdadeira italianidade não depende de performance promocional.
+            Ela se manifesta na coerência entre origem, forma, gesto e substância cultural.
+          </p>
+          <p class="reading-column">
+            Seu papel é distinguir aquilo que merece ser separado do genérico, do imitativo e do apenas decorativo,
+            tornando visível um reconhecimento raro e deliberadamente seletivo.
+          </p>
+        </div>
+      </section>
+
+      <section class="section editorial-grid">
+        <div class="section-header">
+          <p class="meta">Princípios</p>
+        </div>
+        <div class="principles-grid">
+          <article class="principle-item">
+            <h2>Autenticidade</h2>
+            <p>Relação verdadeira com repertórios, saberes e linguagens da cultura italiana.</p>
+          </article>
+          <article class="principle-item">
+            <h2>Método</h2>
+            <p>Disciplina de execução, rigor técnico e constância formal no fazer.</p>
+          </article>
+          <article class="principle-item">
+            <h2>Tradição</h2>
+            <p>Continuidade viva com uma herança cultural, sem folclore ou caricatura superficial.</p>
+          </article>
+          <article class="principle-item">
+            <h2>Integridade</h2>
+            <p>Coerência entre origem, matéria, discurso, conduta e presença pública.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-highlight">
+        <div class="editorial-grid">
+          <div class="section-header">
+            <p class="meta">Edição 2026</p>
+          </div>
+          <div class="section-body reading-column-wide">
+            <h2 class="section-display">Sete reconhecimentos. Nenhum a mais.</h2>
+            <p class="lead">
+              A edição inaugural do Sigillo Italiano será composta por apenas sete reconhecimentos. Não existe inscrição.
+              A curadoria observa, pesquisa e escolhe diretamente.
             </p>
           </div>
-
-          <figure class="hero-poster reveal reveal-4" aria-label="Cartaz editorial do Sigillo Italiano">
-            <div class="hero-poster-inner">
-              <p class="hero-poster-meta">Edizione inaugurale</p>
-              <img class="hero-poster-mark" src="assets/sigillo-italiano-mark.svg" alt="Insígnia do Sigillo Italiano">
-              <p class="hero-poster-title">Sigillo<br>Italiano</p>
-              <p class="hero-poster-footer">Sete reconhecimentos<br>São Paulo / Mantova</p>
-            </div>
-          </figure>
         </div>
       </section>
 
-      <section class="home-index motion-stage">
-        <div class="section-label">
-          <p class="section-index reveal reveal-3">Índice</p>
+      <section class="section editorial-grid">
+        <div class="section-header">
+          <p class="meta">Curadoria</p>
         </div>
-        <div class="index-list">
-          <a class="index-item reveal reveal-4" href="o-sigillo.html">
-            <span class="recognition-number">01</span>
-            <span class="index-title">O Sigillo</span>
-            <span class="index-copy">A filosofia do selo, os critérios de curadoria e a natureza editorial do reconhecimento.</span>
-          </a>
-          <a class="index-item reveal reveal-5" href="edicao-2026.html">
-            <span class="recognition-number">02</span>
-            <span class="index-title">Edição 2026</span>
-            <span class="index-copy">A edição inaugural será composta por apenas sete reconhecimentos, sem inscrição pública.</span>
-          </a>
-          <a class="index-item reveal reveal-6" href="curadoria.html">
-            <span class="recognition-number">03</span>
-            <span class="index-title">Curadoria</span>
-            <span class="index-copy">O projeto nasce entre São Paulo e Mantova, em um campo de atenção lento e crítico.</span>
-          </a>
-          <a class="index-item reveal reveal-7" href="contato.html">
-            <span class="recognition-number">04</span>
-            <span class="index-title">Contato</span>
-            <span class="index-copy">Correspondência institucional para assuntos editoriais, culturais e convites formais.</span>
-          </a>
-        </div>
-      </section>
-
-      <section class="page-grid">
-        <div class="section-label">
-          <p class="section-index">Nota institucional</p>
-        </div>
-        <div class="section-body two-col">
-          <p>
-            O que é verdadeiramente italiano não precisa de marketing para se vender. Precisa apenas ser reconhecido.
-            Por isso o Sigillo Italiano opera em um ritmo deliberadamente lento, discreto e seletivo.
+        <div class="section-body reading-column-wide">
+          <h2 class="place-line">São Paulo / Mantova</h2>
+          <p class="reading-column">
+            O projeto nasce entre duas geografias culturais: São Paulo, como território de experiência ítalo-brasileira
+            viva, e Mantova, como referência de memória, medida e permanência italiana.
           </p>
-          <p>
-            O site existe como arquivo editorial e instituição cultural. Sua forma busca precisão, silêncio e
-            autoridade, recusando a linguagem promocional em favor de uma presença mais rara e duradoura.
-          </p>
-        </div>
-      </section>
-
-      <section class="page-grid">
-        <div class="section-label">
-          <p class="section-index">Quatro princípios</p>
-        </div>
-        <div class="criteria-list">
-          <article class="criteria-item">
-            <p class="recognition-number">01</p>
-            <div>
-              <h2 class="recognition-title">Autenticidade</h2>
-              <p>Relação verdadeira com repertórios, saberes e linguagens da cultura italiana.</p>
-            </div>
-          </article>
-          <article class="criteria-item">
-            <p class="recognition-number">02</p>
-            <div>
-              <h2 class="recognition-title">Método</h2>
-              <p>Disciplina de execução, precisão formal e rigor contínuo no fazer.</p>
-            </div>
-          </article>
-          <article class="criteria-item">
-            <p class="recognition-number">03</p>
-            <div>
-              <h2 class="recognition-title">Tradição</h2>
-              <p>Continuidade viva com uma herança cultural, sem caricatura ou folclore de superfície.</p>
-            </div>
-          </article>
-          <article class="criteria-item">
-            <p class="recognition-number">04</p>
-            <div>
-              <h2 class="recognition-title">Integridade</h2>
-              <p>Coerência entre origem, matéria, discurso, conduta e presença pública.</p>
-            </div>
-          </article>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="site-footer">
       <span>Sigillo Italiano</span>
       <span>Curadoria cultural ítalo-brasileira</span>
-      <span>2026</span>
+      <span>São Paulo / Mantova</span>
     </footer>
   </div>
 </body>
