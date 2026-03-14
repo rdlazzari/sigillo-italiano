@@ -105,50 +105,30 @@ li {
 
 .site-header {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 74px 1fr;
   gap: var(--space-6);
   padding: var(--space-5) 0 var(--space-4);
   border-bottom: 1px solid var(--color-rule-strong);
+  align-items: center;
 }
 
 .brand {
-  display: flex;
-  gap: var(--space-3);
-  align-items: flex-start;
+  display: inline-flex;
+  align-items: center;
 }
 
 .brand-mark {
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   flex: none;
 }
 
-.brand-text {
-  display: grid;
-  gap: 3px;
-}
-
-.brand-text strong,
 .site-nav a,
 .lang-switch a,
 .lang-switch span,
 .meta,
 .site-footer {
   font-family: var(--font-sans);
-}
-
-.brand-text strong {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-}
-
-.brand-text span {
-  color: var(--color-text-soft);
-  font-size: var(--text-xs);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 .site-nav {
@@ -287,15 +267,46 @@ li {
 }
 
 .site-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: var(--space-3);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-4);
+  align-items: end;
   padding: var(--space-5) 0 var(--space-6);
   border-top: 1px solid var(--color-rule-strong);
   color: var(--color-text-soft);
   font-size: var(--text-xs);
   letter-spacing: 0.16em;
   text-transform: uppercase;
+}
+
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--color-text);
+  opacity: 0.82;
+}
+
+.footer-logo-mark {
+  width: 34px;
+  height: 34px;
+  flex: none;
+}
+
+.footer-logo-type {
+  display: grid;
+  gap: 0;
+  font-family: var(--font-serif);
+  font-size: 1.28rem;
+  line-height: 0.88;
+  letter-spacing: 0.16em;
+}
+
+.footer-meta {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 @media (max-width: 900px) {
@@ -314,6 +325,20 @@ li {
 
   .site-nav,
   .nav-links {
+    justify-content: flex-start;
+  }
+
+  .site-header {
+    grid-template-columns: 44px 1fr;
+    gap: var(--space-5);
+  }
+
+  .site-footer {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .footer-meta {
     justify-content: flex-start;
   }
 
