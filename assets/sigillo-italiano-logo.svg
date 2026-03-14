@@ -1,0 +1,16 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g fill="currentColor">
+    <circle cx="450" cy="114" r="80" fill="none" stroke="currentColor" stroke-width="7"/>
+    <circle cx="450" cy="114" r="60" fill="none" stroke="currentColor" stroke-width="5"/>
+    <path d="M450 64L492 73L494 145L450 178L406 145L408 73L450 64Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M450 64L408 145" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+    <path d="M450 64L494 145" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+    <path d="M408 73L450 178" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+    <path d="M492 73L450 178" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+    <path d="M408 73L439 145" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+    <path d="M492 73L461 145" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="450" cy="114" r="9" fill="currentColor"/>
+  </g>
+  <text x="450" y="332" text-anchor="middle" fill="currentColor" font-family="Cormorant Garamond, Playfair Display, serif" font-size="122" letter-spacing="18">SIGILLO</text>
+  <text x="450" y="452" text-anchor="middle" fill="currentColor" font-family="Cormorant Garamond, Playfair Display, serif" font-size="118" letter-spacing="16">ITALIANO</text>
+</svg>

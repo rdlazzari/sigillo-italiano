@@ -282,24 +282,13 @@ li {
 .footer-logo {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
-  color: var(--color-text);
   opacity: 0.82;
 }
 
-.footer-logo-mark {
-  width: 34px;
-  height: 34px;
-  flex: none;
-}
-
-.footer-logo-type {
-  display: grid;
-  gap: 0;
-  font-family: var(--font-serif);
-  font-size: 1.28rem;
-  line-height: 0.88;
-  letter-spacing: 0.16em;
+.footer-logo-full {
+  width: 184px;
+  height: auto;
+  display: block;
 }
 
 .footer-meta {
