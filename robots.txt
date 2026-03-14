@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /en/
+Disallow: /it/
+
+Sitemap: https://www.sigilloitaliano.org/sitemap.xml
