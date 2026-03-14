@@ -226,6 +226,61 @@ a {
   display: block;
 }
 
+.motion-stage {
+  overflow: clip;
+}
+
+.reveal,
+.reveal-mark {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.65, 0.2, 1);
+}
+
+.reveal {
+  transform: translateY(18px);
+  animation-name: revealUp;
+  animation-duration: 1.2s;
+}
+
+.reveal-mark {
+  transform: scale(0.94);
+  animation-name: revealMark;
+  animation-duration: 1.5s;
+}
+
+.reveal-1 { animation-delay: 0.08s; }
+.reveal-2 { animation-delay: 0.22s; }
+.reveal-3 { animation-delay: 0.38s; }
+.reveal-4 { animation-delay: 0.56s; }
+.reveal-5 { animation-delay: 0.74s; }
+.reveal-6 { animation-delay: 0.92s; }
+.reveal-7 { animation-delay: 1.08s; }
+
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes revealMark {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
+
 .intro-statement {
   max-width: 26ch;
   margin: 0;
@@ -441,6 +496,11 @@ a {
     gap: 10px;
   }
 
+  .reveal,
+  .reveal-mark {
+    animation-duration: 0.9s;
+  }
+
   .section-body p,
   .section-body li,
   .page-body p,
@@ -453,5 +513,14 @@ a {
 
   .footer {
     flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal-mark {
+    opacity: 1;
+    transform: none;
+    animation: none;
   }
 }
