@@ -194,9 +194,14 @@ li {
 }
 
 .hero h1 {
-  max-width: 820px;
+  max-width: 920px;
   margin-top: var(--space-5);
   text-wrap: balance;
+}
+
+.hero-line {
+  display: block;
+  white-space: nowrap;
 }
 
 .editorial-grid {
@@ -323,6 +328,10 @@ li {
 
   .hero h1 {
     max-width: none;
+  }
+
+  .hero-line {
+    white-space: normal;
   }
 
   .lead,
