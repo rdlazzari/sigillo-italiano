@@ -194,12 +194,23 @@ li {
 }
 
 .hero h1 {
-  max-width: 920px;
+  max-width: none;
   margin-top: var(--space-5);
   text-wrap: balance;
 }
 
-.hero-line {
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  max-width: none;
+  font-size: clamp(2.2rem, 5.4vw, 4.35rem);
+  line-height: 0.94;
+  letter-spacing: -0.045em;
+}
+
+.hero-title span {
   display: block;
   white-space: nowrap;
 }
@@ -330,7 +341,12 @@ li {
     max-width: none;
   }
 
-  .hero-line {
+  .hero-title {
+    font-size: clamp(2rem, 11vw, 3.5rem);
+    line-height: 0.98;
+  }
+
+  .hero-title span {
     white-space: normal;
   }
 
