@@ -15,28 +15,38 @@
 <body>
 
   <header class="nav-bar is-light" id="navbar">
+    <div class="nav-start">
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span class="nav-toggle-text">Menu</span>
+        <span class="nav-toggle-bars"><span></span><span></span></span>
+      </button>
+    </div>
     <a class="nav-brand" href="index.html">
       <img src="assets/sigillo-italiano-mark.svg" alt="">
       <span>Sigillo Italiano</span>
     </a>
-    <div class="nav-links">
-      <nav class="nav-menu" aria-label="Principal">
-        <a class="nav-link is-active" href="index.html">Início</a>
-        <a class="nav-link" href="o-sigillo.html">O Sigillo</a>
-        <a class="nav-link" href="edicao-2026.html">Edição 2026</a>
-        <a class="nav-link" href="curadoria.html">Curadoria</a>
-        <a class="nav-link" href="contato.html">Contato</a>
-      </nav>
+    <div class="nav-end">
       <div class="lang" aria-label="Idioma">
         <span class="is-active">PT</span>
         <a href="en/index.html">EN</a>
         <a href="it/index.html">IT</a>
       </div>
     </div>
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
   </header>
+
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
+    <nav class="nav-overlay-menu" aria-label="Principal">
+      <a class="nav-overlay-link is-active" href="index.html">Início</a>
+      <a class="nav-overlay-link" href="o-sigillo.html">O Sigillo</a>
+      <a class="nav-overlay-link" href="edicao-2026.html">Edição 2026</a>
+      <a class="nav-overlay-link" href="curadoria.html">Curadoria</a>
+      <a class="nav-overlay-link" href="contato.html">Contato</a>
+    </nav>
+    <div class="nav-overlay-foot">
+      <span>São Paulo / Mantova</span>
+      <span>Edição inaugural MMXXVI</span>
+    </div>
+  </div>
 
   <section class="hero">
     <div class="hero-media">
@@ -68,8 +78,14 @@
     <div class="manifesto-rule reveal"></div>
   </section>
 
+  <section class="monument reveal">
+    <span class="monument-eyebrow">Edição MMXXVI</span>
+    <h2 class="monument-text">Sete reconhecimentos.<br>Nenhum a mais.</h2>
+    <div class="monument-rule"></div>
+  </section>
+
   <section class="section">
-    <div class="reveal" style="text-align:center;margin-bottom:60px;">
+    <div class="reveal" style="text-align:center;margin-bottom:64px;">
       <p class="eyebrow is-center">Quatro princípios</p>
       <h2 class="display" style="margin: 0 auto;">Aquilo que merece ser <em>distinguido</em>.</h2>
     </div>
@@ -131,7 +147,7 @@
   </section>
 
   <section class="section" style="padding-top: 0;">
-    <div class="reveal" style="margin-bottom: 40px;">
+    <div class="reveal" style="margin-bottom: 44px;">
       <p class="eyebrow">Índice</p>
       <h2 class="display">Arquivo editorial.</h2>
     </div>

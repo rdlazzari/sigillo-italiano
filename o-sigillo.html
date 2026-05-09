@@ -15,30 +15,40 @@
 <body>
 
   <header class="nav-bar is-light" id="navbar">
+    <div class="nav-start">
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span class="nav-toggle-text">Menu</span>
+        <span class="nav-toggle-bars"><span></span><span></span></span>
+      </button>
+    </div>
     <a class="nav-brand" href="index.html">
       <img src="assets/sigillo-italiano-mark.svg" alt="">
       <span>Sigillo Italiano</span>
     </a>
-    <div class="nav-links">
-      <nav class="nav-menu" aria-label="Principal">
-        <a class="nav-link" href="index.html">Início</a>
-        <a class="nav-link is-active" href="o-sigillo.html">O Sigillo</a>
-        <a class="nav-link" href="edicao-2026.html">Edição 2026</a>
-        <a class="nav-link" href="curadoria.html">Curadoria</a>
-        <a class="nav-link" href="contato.html">Contato</a>
-      </nav>
+    <div class="nav-end">
       <div class="lang" aria-label="Idioma">
         <span class="is-active">PT</span>
         <a href="en/o-sigillo.html">EN</a>
         <a href="it/o-sigillo.html">IT</a>
       </div>
     </div>
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
   </header>
 
-  <section class="hero is-compact">
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
+    <nav class="nav-overlay-menu" aria-label="Principal">
+      <a class="nav-overlay-link" href="index.html">Início</a>
+      <a class="nav-overlay-link is-active" href="o-sigillo.html">O Sigillo</a>
+      <a class="nav-overlay-link" href="edicao-2026.html">Edição 2026</a>
+      <a class="nav-overlay-link" href="curadoria.html">Curadoria</a>
+      <a class="nav-overlay-link" href="contato.html">Contato</a>
+    </nav>
+    <div class="nav-overlay-foot">
+      <span>São Paulo / Mantova</span>
+      <span>Edição inaugural MMXXVI</span>
+    </div>
+  </div>
+
+<section class="hero is-compact">
     <div class="hero-media">
       <img data-parallax="0.16" src="https://images.unsplash.com/photo-1525874684015-58379d421a52?w=2400&q=85&auto=format&fit=crop" alt="">
     </div>

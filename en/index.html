@@ -15,30 +15,40 @@
 <body>
 
   <header class="nav-bar is-light" id="navbar">
+    <div class="nav-start">
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span class="nav-toggle-text">Menu</span>
+        <span class="nav-toggle-bars"><span></span><span></span></span>
+      </button>
+    </div>
     <a class="nav-brand" href="index.html">
       <img src="../assets/sigillo-italiano-mark.svg" alt="">
       <span>Sigillo Italiano</span>
     </a>
-    <div class="nav-links">
-      <nav class="nav-menu" aria-label="Main">
-        <a class="nav-link is-active" href="index.html">Home</a>
-        <a class="nav-link" href="o-sigillo.html">The Sigillo</a>
-        <a class="nav-link" href="edicao-2026.html">Edition 2026</a>
-        <a class="nav-link" href="curadoria.html">Curation</a>
-        <a class="nav-link" href="contato.html">Contact</a>
-      </nav>
+    <div class="nav-end">
       <div class="lang" aria-label="Language">
         <a href="../index.html">PT</a>
         <span class="is-active">EN</span>
         <a href="../it/index.html">IT</a>
       </div>
     </div>
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
   </header>
 
-  <section class="hero">
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
+    <nav class="nav-overlay-menu" aria-label="Main">
+      <a class="nav-overlay-link is-active" href="index.html">Home</a>
+      <a class="nav-overlay-link" href="o-sigillo.html">The Sigillo</a>
+      <a class="nav-overlay-link" href="edicao-2026.html">Edition 2026</a>
+      <a class="nav-overlay-link" href="curadoria.html">Curation</a>
+      <a class="nav-overlay-link" href="contato.html">Contact</a>
+    </nav>
+    <div class="nav-overlay-foot">
+      <span>São Paulo / Mantova</span>
+      <span>Inaugural edition MMXXVI</span>
+    </div>
+  </div>
+
+<section class="hero">
     <div class="hero-media">
       <img data-parallax="0.18" src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=2400&q=85&auto=format&fit=crop" alt="">
     </div>
