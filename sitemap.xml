@@ -1,74 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
-    <loc>https://www.sigilloitaliano.org/it/</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/"/>
+    <loc>https://www.sigilloitaliano.org/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/index.html"/>
+    <changefreq>monthly</changefreq><priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/pt/</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/"/>
+    <loc>https://www.sigilloitaliano.org/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/index.html"/>
+    <changefreq>monthly</changefreq><priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/it/il-sigillo.html</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/il-sigillo.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/o-sigillo.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/il-sigillo.html"/>
+    <loc>https://www.sigilloitaliano.org/it/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/index.html"/>
+    <changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sigilloitaliano.org/o-sigillo.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/o-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/o-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/o-sigillo.html"/>
+    <changefreq>yearly</changefreq><priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/pt/o-sigillo.html</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/il-sigillo.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/o-sigillo.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/il-sigillo.html"/>
+    <loc>https://www.sigilloitaliano.org/en/o-sigillo.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/o-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/o-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/o-sigillo.html"/>
+    <changefreq>yearly</changefreq><priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/it/registro.html</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/registro.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/registro.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/registro.html"/>
+    <loc>https://www.sigilloitaliano.org/it/o-sigillo.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/o-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/o-sigillo.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/o-sigillo.html"/>
+    <changefreq>yearly</changefreq><priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sigilloitaliano.org/edicao-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/edicao-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/edicao-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/edicao-2026.html"/>
+    <changefreq>yearly</changefreq><priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/pt/registro.html</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/registro.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/registro.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/registro.html"/>
+    <loc>https://www.sigilloitaliano.org/en/edicao-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/edicao-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/edicao-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/edicao-2026.html"/>
+    <changefreq>yearly</changefreq><priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/it/edizione-2026.html</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/edizione-2026.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/edicao-2026.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/edizione-2026.html"/>
+    <loc>https://www.sigilloitaliano.org/it/edicao-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/edicao-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/edicao-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/edicao-2026.html"/>
+    <changefreq>yearly</changefreq><priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sigilloitaliano.org/curadoria.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/curadoria.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/curadoria.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/curadoria.html"/>
+    <changefreq>yearly</changefreq><priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/pt/edicao-2026.html</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/edizione-2026.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/edicao-2026.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/edizione-2026.html"/>
+    <loc>https://www.sigilloitaliano.org/en/curadoria.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/curadoria.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/curadoria.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/curadoria.html"/>
+    <changefreq>yearly</changefreq><priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/it/curatela.html</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/curatela.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/curadoria.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/curatela.html"/>
+    <loc>https://www.sigilloitaliano.org/it/curadoria.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/curadoria.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/curadoria.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/curadoria.html"/>
+    <changefreq>yearly</changefreq><priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.sigilloitaliano.org/contato.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/contato.html"/>
+    <changefreq>yearly</changefreq><priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.sigilloitaliano.org/pt/curadoria.html</loc>
-    <lastmod>2026-03-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://www.sigilloitaliano.org/it/curatela.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/pt/curadoria.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/it/curatela.html"/>
+    <loc>https://www.sigilloitaliano.org/en/contato.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/contato.html"/>
+    <changefreq>yearly</changefreq><priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://www.sigilloitaliano.org/it/contato.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/contato.html"/>
+    <xhtml:link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/contato.html"/>
+    <changefreq>yearly</changefreq><priority>0.5</priority>
+  </url>
+
 </urlset>

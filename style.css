@@ -43,6 +43,7 @@ body {
   line-height: 1.6;
   font-feature-settings: "kern", "liga", "onum";
   overflow-x: hidden;
+  overscroll-behavior-y: none; /* prevent iOS rubber-band white flash */
 }
 
 /* subtle edge vignette — kept, grain removed per Vignelli rigor */
@@ -78,11 +79,18 @@ a { color: inherit; text-decoration: none; }
 }
 
 .nav-bar.is-scrolled {
-  background: rgba(241, 233, 216, 0.94);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  /* solid fallback for browsers without backdrop-filter (older Firefox) */
+  background: rgba(241, 233, 216, 0.97);
   padding: 16px var(--gutter);
   border-bottom-color: var(--rule);
+}
+
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .nav-bar.is-scrolled {
+    background: rgba(241, 233, 216, 0.88);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
 }
 
 .nav-bar.menu-open {
@@ -317,8 +325,14 @@ a { color: inherit; text-decoration: none; }
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(180deg, rgba(22, 18, 12, 0.5) 0%, rgba(22, 18, 12, 0.15) 38%, rgba(22, 18, 12, 0.88) 100%);
+  /* stronger mid-band so text stays legible when layout collapses on mobile */
+  background: linear-gradient(
+    180deg,
+    rgba(22, 18, 12, 0.55) 0%,
+    rgba(22, 18, 12, 0.22) 32%,
+    rgba(22, 18, 12, 0.48) 58%,
+    rgba(22, 18, 12, 0.92) 100%
+  );
 }
 
 .hero-content {
@@ -361,6 +375,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: -0.04em;
   margin: 0 0 20px;
   font-variation-settings: "opsz" 144, "SOFT" 45;
+  text-shadow: 0 2px 24px rgba(22, 18, 12, 0.5);
 }
 
 .hero-title em {
@@ -787,7 +802,14 @@ h2.display em, h1.display em {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 45%, rgba(22, 18, 12, 0.45) 100%);
+  /* stronger scrim — caption text must always read at WCAG 3:1 minimum */
+  background: linear-gradient(
+    180deg,
+    rgba(22, 18, 12, 0.08) 0%,
+    rgba(22, 18, 12, 0)    28%,
+    rgba(22, 18, 12, 0.55) 62%,
+    rgba(22, 18, 12, 0.86) 100%
+  );
 }
 
 .photo-break-caption {
@@ -801,6 +823,7 @@ h2.display em, h1.display em {
   text-transform: uppercase;
   font-weight: 500;
   z-index: 2;
+  text-shadow: 0 1px 10px rgba(22, 18, 12, 0.7);
 }
 
 .photo-break-caption strong {
@@ -813,6 +836,7 @@ h2.display em, h1.display em {
   text-transform: none;
   margin-top: 12px;
   font-variation-settings: "opsz" 144, "SOFT" 45;
+  text-shadow: 0 2px 20px rgba(22, 18, 12, 0.75);
 }
 
 /* =========================================================

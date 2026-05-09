@@ -42,6 +42,10 @@
 
   if (overlay) {
     overlay.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+    /* close when clicking the overlay backdrop (outside the menu items) */
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeMenu();
+    });
   }
 
   document.addEventListener('keydown', (e) => {
