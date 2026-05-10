@@ -8,8 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..700,0..100;1,9..144,200..700,0..100&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="home-pilota.css">
   <link rel="icon" type="image/svg+xml" href="../assets/sigillo-italiano-mark.svg">
   <link rel="canonical" href="https://www.sigilloitaliano.org/it/index.html">
   <link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/index.html">
@@ -44,210 +43,182 @@
   </script>
 </head>
 <body>
+  <div class="pilot-shell">
+    <header class="pilot-nav">
+      <div class="pilot-nav-inner">
+        <a class="pilot-brand" href="index.html">
+          <img src="../assets/sigillo-italiano-mark.svg" alt="">
+          <span class="pilot-brand-text">
+            <span class="pilot-brand-name">Sigillo Italiano</span>
+            <span class="pilot-brand-meta">Archivio inaugurale · MMXXVI</span>
+          </span>
+        </a>
 
-  <header class="nav-bar is-light" id="navbar">
-    <div class="nav-start">
-      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-        <span class="nav-toggle-text">Menu</span>
-        <span class="nav-toggle-bars"><span></span><span></span></span>
-      </button>
-      <nav class="nav-links" aria-label="Principale">
-        <a href="o-sigillo.html">Il Sigillo</a>
-        <a href="edicao-2026.html">Edizione 2026</a>
-        <a href="curadoria.html">Curatela</a>
-        <a href="contato.html">Contatto</a>
-      </nav>
-    </div>
-    <a class="nav-brand" href="index.html">
-      <img src="../assets/sigillo-italiano-mark.svg" alt="">
-      <span>Sigillo Italiano</span>
-    </a>
-    <div class="nav-end">
-      <div class="lang" aria-label="Lingua">
-        <a href="../index.html">🇧🇷</a>
-        <a href="../en/index.html">🇺🇸</a>
-        <span class="is-active">🇮🇹</span>
+        <nav class="pilot-menu" aria-label="Principale">
+          <a class="is-active" href="index.html">Home</a>
+          <a href="o-sigillo.html">Il Sigillo</a>
+          <a href="edicao-2026.html">Edizione 2026</a>
+          <a href="curadoria.html">Curatela</a>
+          <a href="contato.html">Contatto</a>
+        </nav>
+
+        <div class="pilot-lang" aria-label="Lingua">
+          <a href="../index.html">PT</a>
+          <a href="../en/index.html">EN</a>
+          <span class="is-active">IT</span>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
-    <nav class="nav-overlay-menu" aria-label="Principale">
-      <a class="nav-overlay-link is-active" href="index.html">Home</a>
-      <a class="nav-overlay-link" href="o-sigillo.html">Il Sigillo</a>
-      <a class="nav-overlay-link" href="edicao-2026.html">Edizione 2026</a>
-      <a class="nav-overlay-link" href="curadoria.html">Curatela</a>
-      <a class="nav-overlay-link" href="contato.html">Contatto</a>
-    </nav>
-    <div class="nav-overlay-foot">
-      <span>São Paulo / Mantova</span>
-      <span>Edizione inaugurale MMXXVI</span>
-    </div>
+    <main class="pilot-main">
+      <section class="pilot-hero" id="hero">
+        <div class="pilot-hero-frame">
+          <div class="pilot-hero-copy">
+            <p class="pilot-kicker">Curatela editoriale · São Paulo — Mantova</p>
+            <h1 class="pilot-hero-title">
+              <span>Ciò che è veramente italiano</span>
+              <span>non ha bisogno di promuoversi.</span>
+              <span>Ha bisogno di essere riconosciuto.</span>
+            </h1>
+            <p class="pilot-hero-lede">
+              Una curatela italo-brasiliana dedicata a distinguere prodotti, produttori e iniziative la cui italianità si manifesta con metodo, memoria e integrità. Qui la fotografia resta, ma la lettura non dipende più da essa.
+            </p>
+            <div class="pilot-hero-meta">
+              <span>Edizione inaugurale</span>
+              <span>Sette riconoscimenti</span>
+              <span>Archivio in formazione</span>
+            </div>
+          </div>
+
+          <div class="pilot-hero-image" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=2200&q=85&auto=format&fit=crop" alt="">
+          </div>
+        </div>
+      </section>
+
+      <div class="pilot-note">
+        <p>
+          Sigillo Italiano non è un premio, un marketplace o una certificazione tecnica. È un riconoscimento editoriale di natura culturale, formulato con lentezza, attenzione e autonomia di giudizio.
+        </p>
+      </div>
+
+      <section class="pilot-section">
+        <div class="pilot-aside-grid">
+          <p class="pilot-label">Il Sigillo</p>
+          <div class="pilot-block">
+            <h2 class="pilot-display">Un riconoscimento editoriale per ciò che rimane intero.</h2>
+            <div class="pilot-copy">
+              <p>
+                Il Sigillo Italiano distingue ciò che mantiene un rapporto reale con la cultura italiana: non come citazione o ornamento, ma come misura, linguaggio e continuità. L’obiettivo non è amplificare la visibilità, bensì riconoscere una consistenza già presente.
+              </p>
+              <p>
+                La curatela non opera per accumulo. Formula pochi atti di distinzione, ciascuno destinato a entrare nel registro come presenza durevole.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pilot-section">
+        <div class="pilot-aside-grid">
+          <p class="pilot-label">Principi</p>
+          <div class="pilot-block">
+            <h2 class="pilot-display">Quattro criteri. Nessun artificio.</h2>
+            <div class="pilot-principles">
+              <article class="pilot-principle">
+                <p class="pilot-principle-kicker">I · Autenticità</p>
+                <h3>Rapporto veritiero con la cultura</h3>
+                <p>Un legame reale con saperi, repertori e forme italiane, privo di scenografie decorative.</p>
+              </article>
+              <article class="pilot-principle">
+                <p class="pilot-principle-kicker">II · Metodo</p>
+                <h3>Disciplina del fare</h3>
+                <p>Tecnica, pazienza ed esattezza nel modo di concepire, comporre e portare a compimento.</p>
+              </article>
+              <article class="pilot-principle">
+                <p class="pilot-principle-kicker">III · Tradizione</p>
+                <h3>Continuità viva</h3>
+                <p>Una memoria culturale attiva, capace di permanere senza trasformarsi in imitazione.</p>
+              </article>
+              <article class="pilot-principle">
+                <p class="pilot-principle-kicker">IV · Integrità</p>
+                <h3>Coerenza totale</h3>
+                <p>Accordo tra origine, materia, gesto, discorso e presenza pubblica.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pilot-image-break" aria-label="Interludio editoriale">
+        <div class="pilot-image-frame">
+          <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=2200&q=85&auto=format&fit=crop" alt="">
+        </div>
+        <div class="pilot-image-caption">
+          <span>Edizione inaugurale</span>
+          <strong>Sette riconoscimenti. Nessuno di più.</strong>
+        </div>
+      </section>
+
+      <section class="pilot-section">
+        <div class="pilot-aside-grid">
+          <p class="pilot-label">Edizione · MMXXVI</p>
+          <div class="pilot-block">
+            <h2 class="pilot-display">Un ciclo inaugurale deliberato, individuale e permanente.</h2>
+            <div class="pilot-copy">
+              <p>
+                Nel 2026, il Sigillo Italiano concederà soltanto sette riconoscimenti. Nessuno sarà ottenuto per candidatura. La curatela osserva, ricerca e decide con autonomia critica, senza fretta e senza necessità di rendersi visibile.
+              </p>
+              <p>
+                La lista finale sarà pubblicata quando il ciclo inaugurale avrà raggiunto una forma compiuta. Fino ad allora, il sito deve suggerire continuità, non provvisorietà.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pilot-section">
+        <div class="pilot-aside-grid">
+          <p class="pilot-label">Archivio</p>
+          <div class="pilot-block">
+            <h2 class="pilot-display">Una navigazione più sobria. Una lettura più istituzionale.</h2>
+            <div class="pilot-copy">
+              <p>
+                Questa versione pilota concentra la forza del progetto in pochi punti: un manifesto leggibile, un’immagine che accompagna anziché dominare, una griglia editoriale più severa e un ritmo capace di alternare presenza e silenzio.
+              </p>
+              <p>
+                Se approvata, la stessa logica potrà essere trasferita progressivamente alle altre lingue e alle pagine interne, senza compromettere l’identità già costruita.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pilot-footer">
+      <div class="pilot-footer-grid">
+        <div>
+          <h3 class="pilot-footer-title">Sigillo Italiano</h3>
+          <p>Curatela culturale italo-brasiliana.</p>
+          <p>Archivio inaugurale · MMXXVI.</p>
+        </div>
+        <div>
+          <h3 class="pilot-footer-title">Base</h3>
+          <p>São Paulo — Mantova</p>
+          <p>Registro editoriale in formazione.</p>
+        </div>
+        <div>
+          <h3 class="pilot-footer-title">Percorso</h3>
+          <p><a href="o-sigillo.html">Il Sigillo</a></p>
+          <p><a href="edicao-2026.html">Edizione 2026</a></p>
+          <p><a href="curadoria.html">Curatela</a></p>
+        </div>
+      </div>
+      <div class="pilot-footer-base">
+        <span>Versione pilota della home italiana</span>
+        <span>Stesso progetto · direzione più leggibile</span>
+      </div>
+    </footer>
   </div>
-
-  <section class="hero">
-    <div class="hero-media">
-      <img data-parallax="0.18" src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=2400&q=85&auto=format&fit=crop" alt="">
-    </div>
-    <div class="hero-content">
-      <div class="reveal">
-        <p class="hero-eyebrow">Edizione MMXXVI · Archivio inaugurale</p>
-        <h1 class="hero-title">Riconoscere ciò che<br>rimane <em>italiano</em>.</h1>
-        <p class="hero-meta">
-          <span>São Paulo / Mantova</span>
-          <span>Curatela editoriale</span>
-        </p>
-      </div>
-      <div class="reveal">
-        <p class="hero-lede">
-          Una curatela italo-brasiliana dedicata a distinguere prodotti, produttori e iniziative la cui italianità si manifesta con metodo, memoria e integrità - senza messa in scena promozionale, senza dipendere da una validazione commerciale.
-        </p>
-      </div>
-    </div>
-    <div class="hero-scroll" aria-hidden="true">Scorri per leggere</div>
-  </section>
-
-  <section class="manifesto">
-    <img class="manifesto-mark reveal" src="../assets/sigillo-italiano-mark.svg" alt="">
-    <p class="manifesto-text reveal">
-      Sigillo Italiano non è premio, marketplace o certificazione tecnica. <span class="accent">È un riconoscimento editoriale</span> - abbastanza silenzioso da lasciare la verità culturale al centro.
-    </p>
-    <div class="manifesto-rule reveal"></div>
-  </section>
-
-  <section class="monument reveal">
-    <span class="monument-eyebrow">Edizione MMXXVI</span>
-    <h2 class="monument-text">Sette riconoscimenti.<br>Nessuno di più.</h2>
-    <div class="monument-rule"></div>
-  </section>
-
-  <section class="section">
-    <div class="reveal" style="text-align:center;margin-bottom:64px;">
-      <p class="eyebrow is-center">Quattro principi</p>
-      <h2 class="display" style="margin: 0 auto;">Ciò che merita di essere <em>distinto</em>.</h2>
-    </div>
-    <div class="principles reveal-stagger">
-      <article class="principle">
-        <div>
-          <p class="principle-num">I · Autenticità</p>
-          <h3>Rapporto veritiero con la cultura</h3>
-        </div>
-        <p>Legame reale con saperi, repertori e linguaggi della cultura italiana - non come ornamento, ma come matrice.</p>
-      </article>
-      <article class="principle">
-        <div>
-          <p class="principle-num">II · Metodo</p>
-          <h3>Disciplina del fare</h3>
-        </div>
-        <p>Rigore tecnico, pazienza dell'esecuzione e permanenza formale nel modo di concepire e produrre.</p>
-      </article>
-      <article class="principle">
-        <div>
-          <p class="principle-num">III · Tradizione</p>
-          <h3>Continuità viva</h3>
-        </div>
-        <p>Eredità culturale mantenuta in movimento - senza caricatura, senza folclore, senza simulazione decorativa.</p>
-      </article>
-      <article class="principle">
-        <div>
-          <p class="principle-num">IV · Integrità</p>
-          <h3>Coerenza totale</h3>
-        </div>
-        <p>Accordo tra origine, materialità, condotta, discorso e presenza pubblica.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="photo-break">
-    <img data-parallax="0.12" src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=2400&q=85&auto=format&fit=crop" alt="">
-    <div class="photo-break-caption">
-      Edizione inaugurale
-      <strong>Sette riconoscimenti. Nessuno di più.</strong>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="editorial">
-      <div class="editorial-side reveal">
-        <p class="eyebrow">Edizione 2026</p>
-        <h2 class="display">Sette<br>riconoscimenti.</h2>
-      </div>
-      <div class="editorial-body has-dropcap reveal">
-        <p>
-          Nel 2026, Sigillo Italiano concederà soltanto sette riconoscimenti. Nessuno sarà ottenuto tramite candidatura. La curatela identifica, ricerca e decide in modo indipendente, con ritmo lento e indagine prolungata.
-        </p>
-        <p>
-          I riconosciuti potranno utilizzare il Sigillo sulle proprie etichette o nella comunicazione istituzionale, se lo desiderano, come segno di autenticità e densità culturale. La scarsità non è una strategia di valore percepito - è soltanto la conseguenza naturale di un criterio severo.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" style="padding-top: 0;">
-    <div class="reveal" style="margin-bottom: 44px;">
-      <p class="eyebrow">Indice</p>
-      <h2 class="display">Archivio editoriale.</h2>
-    </div>
-    <div class="index-grid reveal-stagger">
-      <a class="index-row" href="o-sigillo.html">
-        <span class="index-num">01</span>
-        <span class="index-title">Il Sigillo</span>
-        <span class="index-copy">Filosofia, criteri e natura editoriale del riconoscimento.</span>
-        <span class="index-arrow">→</span>
-      </a>
-      <a class="index-row" href="edicao-2026.html">
-        <span class="index-num">02</span>
-        <span class="index-title">Edizione 2026</span>
-        <span class="index-copy">Sette riconoscimenti per l'anno inaugurale, senza candidatura pubblica.</span>
-        <span class="index-arrow">→</span>
-      </a>
-      <a class="index-row" href="curadoria.html">
-        <span class="index-num">03</span>
-        <span class="index-title">Curatela</span>
-        <span class="index-copy">Origine del progetto tra São Paulo e Mantova.</span>
-        <span class="index-arrow">→</span>
-      </a>
-      <a class="index-row" href="contato.html">
-        <span class="index-num">04</span>
-        <span class="index-title">Contatto</span>
-        <span class="index-copy">Corrispondenza istituzionale per questioni editoriali e culturali.</span>
-        <span class="index-arrow">→</span>
-      </a>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="../assets/sigillo-italiano-mark.svg" alt="">
-        <strong>Sigillo Italiano</strong>
-        <span>Curatela editoriale italo-brasiliana dedicata ad autenticità, metodo, tradizione e integrità.</span>
-      </div>
-      <div class="footer-col">
-        <h4>Archivio</h4>
-        <a href="o-sigillo.html">Il Sigillo</a>
-        <a href="edicao-2026.html">Edizione 2026</a>
-        <a href="curadoria.html">Curatela</a>
-        <a href="contato.html">Contatto</a>
-      </div>
-      <div class="footer-col">
-        <h4>Base</h4>
-        <p>São Paulo, Brasile</p>
-        <p>Mantova, Italia</p>
-      </div>
-      <div class="footer-col">
-        <h4>Lingua</h4>
-        <a href="../index.html">Português</a>
-        <a href="../en/index.html">English</a>
-        <a href="index.html">Italiano</a>
-      </div>
-    </div>
-    <div class="footer-base">
-      <span>© MMXXVI Sigillo Italiano</span>
-      <span>Edizione inaugurale</span>
-    </div>
-  </footer>
-
-  <script src="../assets/script.js"></script>
 </body>
 </html>
