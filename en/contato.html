@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Sigillo Italiano</title>
-  <meta name="description" content="Institutional contact for Sigillo Italiano.">
-  <link rel="stylesheet" href="../style.css">
+  <title>Contact — Sigillo Italiano</title>
+  <meta name="description" content="Institutional correspondence for Sigillo Italiano — editorial and cultural communications welcome. No application process for recognition.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..700,0..100;1,9..144,200..700,0..100&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/svg+xml" href="../assets/sigillo-italiano-mark.svg">
   <!-- SEO: canonical + hreflang -->
   <link rel="canonical" href="https://www.sigilloitaliano.org/en/contato.html">
@@ -20,13 +21,13 @@
   <meta property="og:type"        content="website">
   <meta property="og:url"         content="https://www.sigilloitaliano.org/en/contato.html">
   <meta property="og:title"       content="Contact — Sigillo Italiano">
-  <meta property="og:description" content="Institutional correspondence for Sigillo Italiano editorial and cultural matters.">
+  <meta property="og:description" content="Institutional correspondence for Sigillo Italiano — editorial and cultural communications welcome.">
   <meta property="og:image"       content="https://www.sigilloitaliano.org/assets/sigillo-italiano-mark.svg">
   <meta property="og:locale"      content="en_US">
   <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary">
   <meta name="twitter:title"       content="Contact — Sigillo Italiano">
-  <meta name="twitter:description" content="Institutional correspondence for Sigillo Italiano editorial and cultural matters.">
+  <meta name="twitter:description" content="Institutional correspondence for Sigillo Italiano — editorial and cultural communications welcome.">
   <meta name="twitter:image"       content="https://www.sigilloitaliano.org/assets/sigillo-italiano-mark.svg">
   <!-- JSON-LD -->
   <script type="application/ld+json">
@@ -46,8 +47,8 @@
   </script>
 </head>
 <body>
-  <div class="page">
-      <header class="nav-bar is-light" id="navbar">
+
+  <header class="nav-bar is-light" id="navbar">
     <div class="nav-start">
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
         <span class="nav-toggle-text">Menu</span>
@@ -59,7 +60,7 @@
       <span>Sigillo Italiano</span>
     </a>
     <div class="nav-end">
-      <div class="lang" aria-label="Idioma">
+      <div class="lang" aria-label="Language">
         <a href="../contato.html">PT</a>
         <span class="is-active">EN</span>
         <a href="../it/contato.html">IT</a>
@@ -68,7 +69,7 @@
   </header>
 
   <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
-    <nav class="nav-overlay-menu" aria-label="Principal">
+    <nav class="nav-overlay-menu" aria-label="Main">
       <a class="nav-overlay-link" href="index.html">Home</a>
       <a class="nav-overlay-link" href="o-sigillo.html">The Sigillo</a>
       <a class="nav-overlay-link" href="edicao-2026.html">Edition 2026</a>
@@ -81,13 +82,90 @@
     </div>
   </div>
 
-<main>
-      <section class="page-intro"><div class="section-label"><p class="section-index">Correspondence</p></div><div class="page-body"><h1 class="page-title">Contact</h1><p>Sigillo Italiano receives institutional, editorial, and cultural communications. There is no application process for recognition.</p></div></section>
-      <section class="page-grid"><div class="section-label"><p class="section-index">Institutional email</p></div><div class="section-body"><a class="contact-link" href="mailto:contato@sigilloitaliano.org">contato@sigilloitaliano.org</a></div></section>
-      <section class="page-grid"><div class="section-label"><p class="section-index">Base</p></div><div class="section-body"><p class="contact-address">Sao Paulo, Brazil<br>Mantova, Italy</p></div></section>
-    </main>
-    <footer class="footer"><span>Sigillo Italiano</span><span>Institutional contact</span><span>2026</span></footer>
-  </div>
+  <section class="contact-hero">
+    <div class="reveal">
+      <p class="eyebrow is-center" style="justify-content: center;">Correspondence</p>
+      <h1 class="display" style="margin: 0 auto 40px;">Institutional <em>contact</em>.</h1>
+      <p class="lead" style="margin: 0 auto 60px; text-align: center;">
+        Sigillo Italiano receives institutional, editorial and cultural communications. There is no application process for recognition.
+      </p>
+    </div>
+
+    <div class="reveal">
+      <form class="contact-form" action="https://formspree.io/f/xkoypaae" method="POST"
+            data-success="Message sent. We will reply shortly.">
+        <div class="form-group">
+          <label for="nome">Name</label>
+          <input type="text" id="nome" name="name" required autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="assunto">Subject</label>
+          <select id="assunto" name="subject" required>
+            <option value="" disabled selected>—</option>
+            <option value="Editorial">Editorial</option>
+            <option value="Cultural">Cultural</option>
+            <option value="Press">Press</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Message</label>
+          <textarea id="mensagem" name="message" rows="5" required></textarea>
+        </div>
+        <input type="text" name="_gotcha" style="display:none">
+        <button type="submit" class="form-submit">Send</button>
+        <p class="form-error" hidden>An error occurred. Please try again.</p>
+      </form>
+    </div>
+
+    <div class="contact-meta reveal-stagger">
+      <div class="contact-meta-item">
+        <p class="label">Correspondence</p>
+        <p class="value">Editorial and cultural</p>
+      </div>
+      <div class="contact-meta-item">
+        <p class="label">Base</p>
+        <p class="value">São Paulo, Brasil</p>
+      </div>
+      <div class="contact-meta-item">
+        <p class="label">Reference</p>
+        <p class="value">Mantova, Italia</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../assets/sigillo-italiano-mark.svg" alt="">
+        <strong>Sigillo Italiano</strong>
+        <span>Italian-Brazilian editorial curation dedicated to authenticity, method, tradition and integrity.</span>
+      </div>
+      <div class="footer-col">
+        <h4>Archive</h4>
+        <a href="index.html">Home</a>
+        <a href="o-sigillo.html">The Sigillo</a>
+        <a href="edicao-2026.html">Edition 2026</a>
+        <a href="curadoria.html">Curation</a>
+      </div>
+      <div class="footer-col">
+        <h4>Base</h4>
+        <p>São Paulo, Brasil</p>
+        <p>Mantova, Italia</p>
+      </div>
+      <div class="footer-col">
+        <h4>Language</h4>
+        <a href="../index.html">Português</a>
+        <a href="contato.html">English</a>
+        <a href="../it/contato.html">Italiano</a>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>© MMXXVI Sigillo Italiano</span>
+      <span>Institutional contact</span>
+    </div>
+  </footer>
+
   <script src="../assets/script.js"></script>
 </body>
 </html>
