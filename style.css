@@ -1328,3 +1328,106 @@ h2.display em, h1.display em {
     font-size: clamp(2rem, 9vw, 4rem);
   }
 }
+
+/* =========================================================
+   Desktop — max-width, navegação e refinamentos de leitura
+   ========================================================= */
+
+/* Centra e limita o conteúdo em monitores largos (>1440px) */
+.section {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-content {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer centrado em telas largas */
+.footer-inner {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* Nav centrada em telas muito largas */
+@media (min-width: 1600px) {
+  .nav-bar {
+    padding-left: calc((100vw - 1600px) / 2 + var(--gutter));
+    padding-right: calc((100vw - 1600px) / 2 + var(--gutter));
+  }
+  .photo-break-caption {
+    left: calc((100vw - 1600px) / 2 + var(--gutter));
+  }
+}
+
+/* Limita recognition-grid a 3 colunas no desktop */
+@media (min-width: 980px) {
+  .recognition-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Nav links visíveis no desktop — substitui o hambúrguer */
+.nav-links {
+  display: none;
+}
+
+@media (min-width: 980px) {
+  .nav-toggle { display: none; }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .nav-links a {
+    font-family: var(--sans);
+    font-size: 0.68rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--stone);
+    transition: color 0.3s var(--ease);
+  }
+
+  .nav-links a:hover,
+  .nav-links a.is-active { color: var(--ink); }
+
+  /* Links claros sobre hero escuro */
+  .nav-bar.is-light:not(.is-scrolled):not(.menu-open) .nav-links a {
+    color: rgba(241, 233, 216, 0.65);
+  }
+  .nav-bar.is-light:not(.is-scrolled):not(.menu-open) .nav-links a:hover,
+  .nav-bar.is-light:not(.is-scrolled):not(.menu-open) .nav-links a.is-active {
+    color: var(--cream);
+  }
+}
+
+/* Overlay vira painel lateral no desktop */
+@media (min-width: 980px) {
+  .nav-overlay {
+    left: auto;
+    width: clamp(320px, 28vw, 420px);
+    justify-content: center;
+    padding: clamp(80px, 12vh, 140px) clamp(48px, 4vw, 72px);
+  }
+  .nav-overlay-link {
+    font-size: clamp(1.8rem, 2.6vw, 3rem);
+  }
+  .nav-overlay-foot {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+}
+
+/* Foco visível para navegação por teclado */
+:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 4px;
+  border-radius: 1px;
+}

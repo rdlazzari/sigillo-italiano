@@ -55,6 +55,12 @@
         <span class="nav-toggle-text">Menu</span>
         <span class="nav-toggle-bars"><span></span><span></span></span>
       </button>
+    <nav class="nav-links" aria-label="Main">
+      <a href="o-sigillo.html">The Sigillo</a>
+      <a href="edicao-2026.html">Edition 2026</a>
+      <a href="curadoria.html">Curation</a>
+      <a class="is-active" href="contato.html">Contact</a>
+    </nav>
     </div>
     <a class="nav-brand" href="index.html">
       <img src="../assets/sigillo-italiano-mark.svg" alt="">
@@ -97,84 +103,4 @@
             data-success="Message sent. We will reply shortly.">
         <div class="form-group">
           <label for="nome">Name</label>
-          <input type="text" id="nome" name="name" required autocomplete="name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required autocomplete="email">
-        </div>
-        <div class="form-group">
-          <label for="telefone">Phone <span style="font-weight:400;opacity:.6;">(optional)</span></label>
-          <input type="tel" id="telefone" name="phone" autocomplete="tel">
-        </div>
-        <div class="form-group">
-          <label for="assunto">Subject</label>
-          <select id="assunto" name="subject" required>
-            <option value="" disabled selected>—</option>
-            <option value="Editorial">Editorial</option>
-            <option value="Cultural">Cultural</option>
-            <option value="Press">Press</option>
-            <option value="Other">Other</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="mensagem">Message</label>
-          <textarea id="mensagem" name="message" rows="5" required></textarea>
-        </div>
-        <input type="text" name="_gotcha" style="display:none">
-        <button type="submit" class="form-submit">Send</button>
-        <p class="form-error" hidden>An error occurred. Please try again.</p>
-      </form>
-    </div>
-
-    <div class="contact-meta reveal-stagger">
-      <div class="contact-meta-item">
-        <p class="label">Correspondence</p>
-        <p class="value">Editorial and cultural</p>
-      </div>
-      <div class="contact-meta-item">
-        <p class="label">Base</p>
-        <p class="value">São Paulo, Brasil</p>
-      </div>
-      <div class="contact-meta-item">
-        <p class="label">Reference</p>
-        <p class="value">Mantova, Italia</p>
-      </div>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="../assets/sigillo-italiano-mark.svg" alt="">
-        <strong>Sigillo Italiano</strong>
-        <span>Italian-Brazilian editorial curation dedicated to authenticity, method, tradition and integrity.</span>
-      </div>
-      <div class="footer-col">
-        <h4>Archive</h4>
-        <a href="index.html">Home</a>
-        <a href="o-sigillo.html">The Sigillo</a>
-        <a href="edicao-2026.html">Edition 2026</a>
-        <a href="curadoria.html">Curation</a>
-      </div>
-      <div class="footer-col">
-        <h4>Base</h4>
-        <p>São Paulo, Brasil</p>
-        <p>Mantova, Italia</p>
-      </div>
-      <div class="footer-col">
-        <h4>Language</h4>
-        <a href="../contato.html">Português</a>
-        <a href="contato.html">English</a>
-        <a href="../it/contato.html">Italiano</a>
-      </div>
-    </div>
-    <div class="footer-base">
-      <span>© MMXXVI Sigillo Italiano</span>
-      <span>Institutional contact</span>
-    </div>
-  </footer>
-
-  <script src="../assets/script.js"></script>
-</body>
-</html>
+          <input type="text" id="nome" name="name"
