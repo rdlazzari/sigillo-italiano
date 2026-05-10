@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contatto — Sigillo Italiano</title>
-  <meta name="description" content="Contatto istituzionale del Sigillo Italiano.">
+  <meta name="description" content="Contatto istituzionale del Sigillo Italiano per corrispondenza editoriale e culturale.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..700,0..100;1,9..144,200..700,0..100&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -109,4 +109,72 @@
         </div>
         <div class="form-group">
           <label for="assunto">Oggetto</label>
-          <select id="assunto" name="subject" requi
+          <select id="assunto" name="subject" required>
+            <option value="" disabled selected>—</option>
+            <option value="Editoriale">Editoriale</option>
+            <option value="Culturale">Culturale</option>
+            <option value="Stampa">Stampa</option>
+            <option value="Altro">Altro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Messaggio</label>
+          <textarea id="mensagem" name="message" rows="5" required></textarea>
+        </div>
+        <input type="text" name="_gotcha" style="display:none">
+        <button type="submit" class="form-submit">Invia</button>
+        <p class="form-error" hidden>Si è verificato un errore. Per favore riprova.</p>
+      </form>
+    </div>
+
+    <div class="contact-meta reveal-stagger">
+      <div class="contact-meta-item">
+        <p class="label">Corrispondenza</p>
+        <p class="value">Editoriale e culturale</p>
+      </div>
+      <div class="contact-meta-item">
+        <p class="label">Base</p>
+        <p class="value">São Paulo, Brasil</p>
+      </div>
+      <div class="contact-meta-item">
+        <p class="label">Riferimento</p>
+        <p class="value">Mantova, Italia</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../assets/sigillo-italiano-mark.svg" alt="">
+        <strong>Sigillo Italiano</strong>
+        <span>Curatela editoriale italo-brasiliana dedicata all'autenticità, metodo, tradizione e integrità.</span>
+      </div>
+      <div class="footer-col">
+        <h4>Archivio</h4>
+        <a href="index.html">Home</a>
+        <a href="o-sigillo.html">Il Sigillo</a>
+        <a href="edicao-2026.html">Edizione 2026</a>
+        <a href="curadoria.html">Curatela</a>
+      </div>
+      <div class="footer-col">
+        <h4>Base</h4>
+        <p>São Paulo, Brasil</p>
+        <p>Mantova, Italia</p>
+      </div>
+      <div class="footer-col">
+        <h4>Lingua</h4>
+        <a href="../contato.html">Português</a>
+        <a href="../en/contato.html">English</a>
+        <a href="contato.html">Italiano</a>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>© MMXXVI Sigillo Italiano</span>
+      <span>Contatto istituzionale</span>
+    </div>
+  </footer>
+
+  <script src="../assets/script.js"></script>
+</body>
+</html>
