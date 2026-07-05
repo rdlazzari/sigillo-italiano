@@ -7,151 +7,114 @@
   <meta name="description" content="An Italian-Brazilian editorial curation recognizing what preserves authenticity, method, tradition, and integrity.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..700,0..100;1,9..144,200..700,0..100&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,300..700&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/svg+xml" href="../assets/sigillo-italiano-mark.svg">
-  <!-- SEO: canonical + hreflang -->
-  <link rel="canonical" href="https://www.sigilloitaliano.org/en/index.html">
-  <link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/index.html">
-  <link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/index.html">
-  <link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/index.html">
-  <link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/index.html">
-  <!-- Open Graph -->
-  <meta property="og:type"        content="website">
-  <meta property="og:url"         content="https://www.sigilloitaliano.org/en/index.html">
-  <meta property="og:title"       content="Sigillo Italiano — Italian-Brazilian editorial curation">
-  <meta property="og:description" content="An Italian-Brazilian editorial curation recognising what preserves authenticity, method, tradition and integrity.">
-  <meta property="og:image"       content="https://www.sigilloitaliano.org/assets/og-image.png">
-  <meta property="og:locale"      content="en_US">
-  <!-- Twitter Card -->
-  <meta name="twitter:card"        content="summary_large_image">
-  <meta name="twitter:title"       content="Sigillo Italiano — Italian-Brazilian editorial curation">
-  <meta name="twitter:description" content="An Italian-Brazilian editorial curation recognising what preserves authenticity, method, tradition and integrity.">
-  <meta name="twitter:image"       content="https://www.sigilloitaliano.org/assets/og-image.png">
-  <!-- JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Sigillo Italiano",
-    "url": "https://www.sigilloitaliano.org",
-    "email": "sigillo@sigilloitaliano.org",
-    "logo": "https://www.sigilloitaliano.org/assets/sigillo-italiano-mark.svg",
-    "description": "Italian-Brazilian editorial curation recognising what preserves authenticity, method, tradition and integrity.",
-    "foundingDate": "2026",
-    "location": [
-      {"@type": "Place", "name": "São Paulo, Brasil"},
-      {"@type": "Place", "name": "Mantova, Italia"}
-    ]
-  }
-  </script>
 </head>
 <body>
 
-  <header class="nav-bar is-light" id="navbar">
-    <div class="nav-start">
-      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-        <span class="nav-toggle-text">Menu</span>
-        <span class="nav-toggle-bars"><span></span><span></span></span>
-      </button>
-    <nav class="nav-links" aria-label="Main">
-      <a href="o-sigillo.html">The Sigillo</a>
-      <a href="edicao-2026.html">Edition 2026</a>
-      <a href="curadoria.html">Curation</a>
-      <a href="contato.html">Contact</a>
-    </nav>
-    </div>
+  <div class="topline">
+    <span>Sigillo Italiano <span class="dot">·</span> Italian-Brazilian editorial curation</span>
+    <span>São Paulo <span class="dot">/</span> Mantova <span class="dot">·</span> MMXXVI</span>
+  </div>
+
+  <header class="nav-bar" id="navbar">
     <a class="nav-brand" href="index.html">
       <img src="../assets/sigillo-italiano-mark.svg" alt="">
       <span>Sigillo Italiano</span>
     </a>
-    <div class="nav-end">
+    <div class="nav-links">
+      <nav class="nav-menu" aria-label="Main">
+        <a class="nav-link is-active" href="index.html">Home</a>
+        <a class="nav-link" href="o-sigillo.html">The Sigillo</a>
+        <a class="nav-link" href="edicao-2026.html">Edition 2026</a>
+        <a class="nav-link" href="curadoria.html">Curation</a>
+        <a class="nav-link" href="contato.html">Contact</a>
+      </nav>
       <div class="lang" aria-label="Language">
-        <a href="../index.html">🇧🇷</a>
-        <span class="is-active">🇺🇸</span>
-        <a href="../it/index.html">🇮🇹</a>
+        <a href="../index.html">PT</a>
+        <span class="is-active">EN</span>
+        <a href="../it/index.html">IT</a>
       </div>
     </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
-  <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
-    <nav class="nav-overlay-menu" aria-label="Main">
-      <a class="nav-overlay-link is-active" href="index.html">Home</a>
-      <a class="nav-overlay-link" href="o-sigillo.html">The Sigillo</a>
-      <a class="nav-overlay-link" href="edicao-2026.html">Edition 2026</a>
-      <a class="nav-overlay-link" href="curadoria.html">Curation</a>
-      <a class="nav-overlay-link" href="contato.html">Contact</a>
-    </nav>
-    <div class="nav-overlay-foot">
-      <span>São Paulo / Mantova</span>
-      <span>Inaugural edition MMXXVI</span>
+  <section class="hero">
+    <p class="hero-folio">Archive <b>SI</b> · Folio 01</p>
+    <div class="reveal">
+      <p class="hero-eyebrow">Edition MMXXVI · Inaugural archive</p>
+      <h1 class="hero-title">Recognising<br>what remains<br><em>Italian</em><span class="punto">.</span></h1>
+    </div>
+    <div class="hero-under reveal">
+      <div class="hero-meta">
+        <b>São Paulo / Mantova</b>
+        <span>Editorial curation</span>
+        <span>Seven recognitions per year</span>
+      </div>
+      <p class="hero-lede">
+        An Italian-Brazilian curation devoted to distinguishing products, producers and initiatives whose Italianness manifests itself with method, memory and integrity — without promotional staging, without dependence on commercial validation.
+      </p>
+      <img class="hero-seal" src="../assets/sigillo-italiano-mark.svg" alt="">
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Authenticity</span><span>Method</span><span>Tradition</span><span>Integrity</span>
+      <span>Authenticity</span><span>Method</span><span>Tradition</span><span>Integrity</span>
+      <span>Authenticity</span><span>Method</span><span>Tradition</span><span>Integrity</span>
+      <span>Authenticity</span><span>Method</span><span>Tradition</span><span>Integrity</span>
     </div>
   </div>
 
-<section class="hero">
-    <div class="hero-media">
-      <img data-parallax="0.18" src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=2400&q=85&auto=format&fit=crop" alt="">
-    </div>
-    <div class="hero-content">
-      <div class="reveal">
-        <p class="hero-eyebrow">Edition MMXXVI · Inaugural archive</p>
-        <h1 class="hero-title">Recognising what<br>remains <em>Italian</em>.</h1>
-        <p class="hero-meta"><span>São Paulo / Mantova</span><span>Editorial curation</span></p>
-      </div>
-      <div class="reveal">
-        <p class="hero-lede">
-          An Italian-Brazilian curation devoted to distinguishing products, producers and initiatives whose Italianness manifests itself with method, memory and integrity — without promotional staging, without dependence on commercial validation.
-        </p>
-      </div>
-    </div>
-    <div class="hero-scroll" aria-hidden="true">Scroll to read</div>
-  </section>
-
   <section class="manifesto">
-    <img class="manifesto-mark reveal" src="../assets/sigillo-italiano-mark.svg" alt="">
+    <p class="manifesto-side reveal">Manifesto · MMXXVI</p>
     <p class="manifesto-text reveal">
       Sigillo Italiano is neither an award, a marketplace, nor a technical certification. <span class="accent">It is an editorial recognition</span> — quiet enough that cultural truth, rather than promotion, stays at the centre.
     </p>
-    <div class="manifesto-rule reveal"></div>
-  </section>
-
-  <section class="monument reveal">
-    <span class="monument-eyebrow">Edition MMXXVI</span>
-    <h2 class="monument-text">Seven recognitions.<br>Not one more.</h2>
-    <div class="monument-rule"></div>
   </section>
 
   <section class="section">
-    <div class="reveal" style="text-align:center;margin-bottom:64px;">
-      <p class="eyebrow is-center">Four principles</p>
-      <h2 class="display" style="margin: 0 auto;">What deserves to be <em>distinguished</em>.</h2>
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow">Four principles</p>
+        <h2 class="display">What deserves to be <em>distinguished</em>.</h2>
+      </div>
+      <p class="section-num">§ 01</p>
     </div>
     <div class="principles reveal-stagger">
       <article class="principle">
         <div>
-          <p class="principle-num">I · Authenticity</p>
+          <p class="principle-num">I.</p>
+          <p class="principle-name">Authenticity</p>
           <h3>A truthful relation to culture</h3>
         </div>
         <p>A real bond with the knowledge, repertoires and languages of Italian culture — not as ornament, but as matrix.</p>
       </article>
       <article class="principle">
         <div>
-          <p class="principle-num">II · Method</p>
+          <p class="principle-num">II.</p>
+          <p class="principle-name">Method</p>
           <h3>Discipline of making</h3>
         </div>
         <p>Rigorous technique, patience of execution and formal permanence in the way of conceiving and producing.</p>
       </article>
       <article class="principle">
         <div>
-          <p class="principle-num">III · Tradition</p>
+          <p class="principle-num">III.</p>
+          <p class="principle-name">Tradition</p>
           <h3>Living continuity</h3>
         </div>
         <p>A cultural inheritance kept in motion — without caricature, without folklore, without decorative simulation.</p>
       </article>
       <article class="principle">
         <div>
-          <p class="principle-num">IV · Integrity</p>
+          <p class="principle-num">IV.</p>
+          <p class="principle-name">Integrity</p>
           <h3>Whole coherence</h3>
         </div>
         <p>Concordance among origin, materiality, conduct, discourse and public presence.</p>
@@ -160,7 +123,7 @@
   </section>
 
   <section class="photo-break">
-    <img data-parallax="0.12" src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=2400&q=85&auto=format&fit=crop" alt="">
+    <img data-parallax="0.1" src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=2400&amp;q=85&amp;auto=format&amp;fit=crop" alt="">
     <div class="photo-break-caption">
       Inaugural edition
       <strong>Seven recognitions. Not one more.</strong>
@@ -171,7 +134,7 @@
     <div class="editorial">
       <div class="editorial-side reveal">
         <p class="eyebrow">Edition 2026</p>
-        <h2 class="display">Seven<br>recognitions.</h2>
+        <h2 class="display">Seven<br>recognitions<span style="color:var(--rosso)">.</span></h2>
       </div>
       <div class="editorial-body has-dropcap reveal">
         <p>
@@ -184,10 +147,13 @@
     </div>
   </section>
 
-  <section class="section" style="padding-top: 0;">
-    <div class="reveal" style="margin-bottom: 44px;">
-      <p class="eyebrow">Index</p>
-      <h2 class="display">Editorial archive.</h2>
+  <section class="section">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow">Index</p>
+        <h2 class="display">Editorial archive<span style="color:var(--rosso)">.</span></h2>
+      </div>
+      <p class="section-num">§ 02</p>
     </div>
     <div class="index-grid reveal-stagger">
       <a class="index-row" href="o-sigillo.html">
@@ -245,7 +211,7 @@
     </div>
     <div class="footer-base">
       <span>© MMXXVI Sigillo Italiano</span>
-      <span>Inaugural edition</span>
+      <span>Inaugural edition · Folio 01</span>
     </div>
   </footer>
 

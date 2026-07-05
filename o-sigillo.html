@@ -7,103 +7,58 @@
   <meta name="description" content="A filosofia editorial e os quatro critérios que orientam o Sigillo Italiano.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..700,0..100;1,9..144,200..700,0..100&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,300..700&amp;family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/svg+xml" href="assets/sigillo-italiano-mark.svg">
-  <!-- SEO: canonical + hreflang -->
-  <link rel="canonical" href="https://www.sigilloitaliano.org/o-sigillo.html">
-  <link rel="alternate" hreflang="pt-BR" href="https://www.sigilloitaliano.org/o-sigillo.html">
-  <link rel="alternate" hreflang="en"    href="https://www.sigilloitaliano.org/en/o-sigillo.html">
-  <link rel="alternate" hreflang="it"    href="https://www.sigilloitaliano.org/it/o-sigillo.html">
-  <link rel="alternate" hreflang="x-default" href="https://www.sigilloitaliano.org/o-sigillo.html">
-  <!-- Open Graph -->
-  <meta property="og:type"        content="website">
-  <meta property="og:url"         content="https://www.sigilloitaliano.org/o-sigillo.html">
-  <meta property="og:title"       content="O Sigillo — Sigillo Italiano">
-  <meta property="og:description" content="Filosofia, critérios e natureza editorial do reconhecimento Sigillo Italiano.">
-  <meta property="og:image"       content="https://www.sigilloitaliano.org/assets/og-image.png">
-  <meta property="og:locale"      content="pt_BR">
-  <!-- Twitter Card -->
-  <meta name="twitter:card"        content="summary_large_image">
-  <meta name="twitter:title"       content="O Sigillo — Sigillo Italiano">
-  <meta name="twitter:description" content="Filosofia, critérios e natureza editorial do reconhecimento Sigillo Italiano.">
-  <meta name="twitter:image"       content="https://www.sigilloitaliano.org/assets/og-image.png">
-  <!-- JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Sigillo Italiano",
-    "url": "https://www.sigilloitaliano.org",
-    "email": "sigillo@sigilloitaliano.org",
-    "logo": "https://www.sigilloitaliano.org/assets/sigillo-italiano-mark.svg",
-    "description": "Italian-Brazilian editorial curation recognising what preserves authenticity, method, tradition and integrity.",
-    "foundingDate": "2026",
-    "location": [
-      {"@type": "Place", "name": "São Paulo, Brasil"},
-      {"@type": "Place", "name": "Mantova, Italia"}
-    ]
-  }
-  </script>
 </head>
 <body>
 
-  <header class="nav-bar is-light" id="navbar">
-    <div class="nav-start">
-      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-        <span class="nav-toggle-text">Menu</span>
-        <span class="nav-toggle-bars"><span></span><span></span></span>
-      </button>
-    <nav class="nav-links" aria-label="Principal">
-      <a class="is-active" href="o-sigillo.html">O Sigillo</a>
-      <a href="edicao-2026.html">Edição 2026</a>
-      <a href="curadoria.html">Curadoria</a>
-      <a href="contato.html">Contato</a>
-    </nav>
-    </div>
+  <div class="topline">
+    <span>Sigillo Italiano <span class="dot">·</span> Curadoria editorial italo-brasileira</span>
+    <span>São Paulo <span class="dot">/</span> Mantova <span class="dot">·</span> MMXXVI</span>
+  </div>
+
+  <header class="nav-bar" id="navbar">
     <a class="nav-brand" href="index.html">
       <img src="assets/sigillo-italiano-mark.svg" alt="">
       <span>Sigillo Italiano</span>
     </a>
-    <div class="nav-end">
+    <div class="nav-links">
+      <nav class="nav-menu" aria-label="Principal">
+        <a class="nav-link" href="index.html">Início</a>
+        <a class="nav-link is-active" href="o-sigillo.html">O Sigillo</a>
+        <a class="nav-link" href="edicao-2026.html">Edição 2026</a>
+        <a class="nav-link" href="curadoria.html">Curadoria</a>
+        <a class="nav-link" href="contato.html">Contato</a>
+      </nav>
       <div class="lang" aria-label="Idioma">
-        <span class="is-active">🇧🇷</span>
-        <a href="en/o-sigillo.html">🇺🇸</a>
-        <a href="it/o-sigillo.html">🇮🇹</a>
+        <span class="is-active">PT</span>
+        <a href="en/o-sigillo.html">EN</a>
+        <a href="it/o-sigillo.html">IT</a>
       </div>
     </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
-  <div class="nav-overlay" id="nav-overlay" aria-hidden="true">
-    <nav class="nav-overlay-menu" aria-label="Principal">
-      <a class="nav-overlay-link" href="index.html">Início</a>
-      <a class="nav-overlay-link is-active" href="o-sigillo.html">O Sigillo</a>
-      <a class="nav-overlay-link" href="edicao-2026.html">Edição 2026</a>
-      <a class="nav-overlay-link" href="curadoria.html">Curadoria</a>
-      <a class="nav-overlay-link" href="contato.html">Contato</a>
-    </nav>
-    <div class="nav-overlay-foot">
-      <span>São Paulo / Mantova</span>
-      <span>Edição inaugural MMXXVI</span>
+  <section class="hero">
+    <p class="hero-folio">Arquivo <b>SI</b> · Documento I</p>
+    <div class="reveal">
+      <p class="hero-eyebrow">Documento · I</p>
+      <h1 class="hero-title">O <em>Sigillo</em><span class="punto">.</span></h1>
     </div>
-  </div>
-
-<section class="hero is-compact">
-    <div class="hero-media">
-      <img data-parallax="0.16" src="https://images.unsplash.com/photo-1525874684015-58379d421a52?w=2400&q=85&auto=format&fit=crop" alt="">
-    </div>
-    <div class="hero-content">
-      <div class="reveal">
-        <p class="hero-eyebrow">Documento · I</p>
-        <h1 class="hero-title">O <em>Sigillo</em>.</h1>
-        <p class="hero-meta"><span>Filosofia editorial</span><span>Quatro critérios</span></p>
+    <div class="hero-under reveal">
+      <div class="hero-meta">
+        <b>Filosofia editorial</b>
+        <span>Quatro critérios</span>
+        <span>Decisão independente</span>
       </div>
-      <div class="reveal">
-        <p class="hero-lede">
-          Um reconhecimento editorial para aquilo que preserva autenticidade, método, tradição e integridade — sem recorrer a encenação cultural.
-        </p>
-      </div>
+      <p class="hero-lede">
+        Um reconhecimento editorial para aquilo que preserva autenticidade, método, tradição e integridade — sem recorrer a encenação cultural.
+      </p>
+      <img class="hero-seal" src="assets/sigillo-italiano-mark.svg" alt="">
     </div>
   </section>
 
@@ -125,7 +80,7 @@
   </section>
 
   <section class="photo-break">
-    <img data-parallax="0.1" src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=2400&q=85&auto=format&fit=crop" alt="">
+    <img data-parallax="0.1" src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=2400&amp;q=85&amp;auto=format&amp;fit=crop" alt="">
     <div class="photo-break-caption">
       Os quatro critérios
       <strong>Autenticidade · Método · Tradição · Integridade</strong>
@@ -133,35 +88,42 @@
   </section>
 
   <section class="section">
-    <div class="reveal" style="margin-bottom: 60px;">
-      <p class="eyebrow">Critérios</p>
-      <h2 class="display">As quatro qualidades que orientam a <em>distinção</em>.</h2>
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow">Critérios</p>
+        <h2 class="display">As quatro qualidades que orientam a <em>distinção</em>.</h2>
+      </div>
+      <p class="section-num">§ 01</p>
     </div>
     <div class="principles reveal-stagger">
       <article class="principle">
         <div>
-          <p class="principle-num">I · Autenticidade</p>
+          <p class="principle-num">I.</p>
+          <p class="principle-name">Autenticidade</p>
           <h3>Verdade na raiz</h3>
         </div>
         <p>Relação real com repertórios, saberes, linguagens e valores da cultura italiana — não citação, não decoração.</p>
       </article>
       <article class="principle">
         <div>
-          <p class="principle-num">II · Método</p>
+          <p class="principle-num">II.</p>
+          <p class="principle-name">Método</p>
           <h3>Rigor do fazer</h3>
         </div>
         <p>Presença de disciplina, técnica, paciência e exatidão no modo de conceber e executar cada gesto.</p>
       </article>
       <article class="principle">
         <div>
-          <p class="principle-num">III · Tradição</p>
+          <p class="principle-num">III.</p>
+          <p class="principle-name">Tradição</p>
           <h3>Memória em movimento</h3>
         </div>
         <p>Continuidade viva com uma herança cultural — sem caricatura, sem folclore, sem nostalgia decorativa.</p>
       </article>
       <article class="principle">
         <div>
-          <p class="principle-num">IV · Integridade</p>
+          <p class="principle-num">IV.</p>
+          <p class="principle-name">Integridade</p>
           <h3>Coerência inteira</h3>
         </div>
         <p>Concordância entre origem, discurso, materialidade, conduta e forma de apresentação pública.</p>
@@ -169,7 +131,7 @@
     </div>
   </section>
 
-  <section class="section" style="padding-top: 0;">
+  <section class="section">
     <div class="editorial">
       <div class="editorial-side reveal">
         <p class="eyebrow">Processo</p>
@@ -207,7 +169,7 @@
       </div>
       <div class="footer-col">
         <h4>Idioma</h4>
-        <a href="index.html">Português</a>
+        <a href="o-sigillo.html">Português</a>
         <a href="en/o-sigillo.html">English</a>
         <a href="it/o-sigillo.html">Italiano</a>
       </div>
