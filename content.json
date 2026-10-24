@@ -95,5 +95,80 @@
       ]
     ],
     "format": "Nota"
+  },
+  {
+    "id": "slow-travel-italia",
+    "category": "Lugares",
+    "country": "Itália",
+    "format": "Guia",
+    "title": "Slow travel na Itália: como planejar uma viagem com menos deslocamentos",
+    "description": "Como escolher uma base, organizar passeios próximos e reservar tempo para conhecer os lugares.",
+    "source": "https://blog.google/products-and-platforms/products/travel/2026-travel-trends/",
+    "sourceName": "Google · Tendências de viagem de 2026",
+    "intro": "Conhecer mais não exige necessariamente passar por mais cidades. Uma viagem com menos deslocamentos abre espaço para observar a vida cotidiana, revisitar um lugar e mudar o programa quando algo merece atenção.",
+    "sections": [
+      [
+        "O que significa viajar sem pressa",
+        "Neste guia, slow travel significa reduzir a quantidade de mudanças de base e dedicar mais atenção ao lugar escolhido. Não é uma regra de duração nem uma obrigação de viajar por semanas. A proposta é usar o tempo disponível de maneira menos fragmentada.\n\nO relatório de viagens do Google de 2026 identificou crescimento nas buscas por esse tema associado à Itália. O dado descreve o período e o universo analisados pela publicação, não o volume de buscas dos brasileiros."
+      ],
+      [
+        "Escolha uma base antes de montar a lista",
+        "Comece pelas experiências que mais interessam: arquitetura, gastronomia, museus ou pequenos centros urbanos. Depois, verifique quais podem ser combinadas a partir de uma mesma base.\n\nCompare o tempo entre hospedagem e estação, o trajeto completo e os horários de retorno. Distâncias no mapa não representam todo o esforço do deslocamento. Evite programar cada dia como uma corrida para recuperar o transporte seguinte."
+      ],
+      [
+        "Deixe um dia sem roteiro fechado",
+        "Uma forma prática de organizar o itinerário é alternar uma visita planejada com um período livre. Voltar à mesma praça ou explorar o entorno de um mercado pode oferecer mais contexto que acrescentar outra cidade.\n\nAntes de reservar, confirme horários e condições nos canais oficiais. Viajar devagar é uma escolha de ritmo; não garante economia e não elimina a necessidade de planejamento."
+      ]
+    ]
+  },
+  {
+    "id": "viajar-de-trem-na-italia",
+    "category": "Lugares",
+    "country": "Itália",
+    "format": "Guia",
+    "title": "Como viajar de trem na Itália: o que conferir antes de comprar a passagem",
+    "description": "Um roteiro de verificação para comparar trajetos, estações e condições de bilhetes sem depender apenas do preço.",
+    "source": "https://www.italia.it/it/italia/informazioni-per-viaggiare/spostarsi-e-viaggiare-in-italia",
+    "sourceName": "Italia.it · Como se deslocar e viajar na Itália",
+    "intro": "O trem pode ajudar a conectar diferentes partes de uma viagem pela Itália. Para escolher bem, convém olhar o percurso completo, e não somente a tarifa que aparece primeiro.",
+    "sections": [
+      [
+        "Comece pelas estações",
+        "Confirme a estação de partida e a de chegada, em vez de procurar apenas pelo nome da cidade. Considere o deslocamento até a hospedagem e o tempo necessário para conexões.\n\nAnote os nomes exatos das estações na sua pesquisa. Isso facilita comparar opções equivalentes e perceber quando um resultado atende a uma estação diferente da pretendida."
+      ],
+      [
+        "Leia as condições do bilhete",
+        "Antes do pagamento, confira data, horário, percurso, necessidade de reserva e condições de alteração ou reembolso. Não suponha que todas as opções seguem as mesmas regras.\n\nO portal oficial Italia.it orienta verificar se o bilhete precisa ser validado antes do embarque. A resposta depende do serviço e do tipo de passagem; confira a informação do operador para o bilhete específico."
+      ],
+      [
+        "Organize o dia do deslocamento",
+        "Guarde o bilhete em um formato acessível e confirme as instruções de embarque. Deixe margem para localizar a plataforma e transportar a bagagem sem pressa.\n\nUse o site ou aplicativo oficial do operador para verificar as informações atualizadas. Este guia oferece um método de planejamento; preços, horários, serviços e regras devem ser consultados na data da viagem."
+      ]
+    ]
+  },
+  {
+    "id": "comida-italiana-por-regiao",
+    "category": "Ofícios",
+    "country": "Itália",
+    "format": "Guia cultural",
+    "title": "Comida italiana por região: por onde começar a descobrir os sabores da Itália",
+    "description": "Um ponto de partida para reconhecer a diversidade regional da cozinha italiana além de uma lista de pratos famosos.",
+    "source": "https://www.italia.it/pt/italia/o-que-fazer/cozinha-italiana-patrimonio-unesco",
+    "sourceName": "Italia.it · A diversidade da cozinha italiana",
+    "intro": "Pensar a cozinha italiana como um conjunto único deixa muitas histórias de fora. Observar as regiões ajuda a relacionar comida, território e formas de transmissão.",
+    "sections": [
+      [
+        "Um país, muitas cozinhas",
+        "O portal oficial de turismo italiano destaca a variedade regional e familiar dos preparos. O mesmo nome pode aparecer em versões diferentes, e essa diferença faz parte da cultura.\n\nPara começar, escolha uma região e pesquise seus ingredientes e práticas locais. Essa abordagem oferece mais contexto que tentar conhecer toda a cozinha do país de uma vez."
+      ],
+      [
+        "Pratos como pontos de partida",
+        "Orecchiette remetem à Apúlia; arancini, à Sicília; culurgiones, à Sardenha. Esses exemplos apresentados pelo Italia.it ajudam a construir um primeiro mapa de leitura, sem esgotar a diversidade de cada território.\n\nAo pesquisar um prato, procure informações sobre a preparação e as variações, além de sua apresentação mais conhecida. Uma tradição pode ter muitas expressões locais."
+      ],
+      [
+        "Como levar esse olhar para a mesa",
+        "Em uma viagem, use a pesquisa para formular perguntas sobre o que encontra no cardápio. No Brasil, observe como ingredientes disponíveis e histórias familiares podem transformar uma preparação.\n\nEvite tratar toda adaptação como erro ou toda receita apresentada como tradicional como prova de origem. O interesse cultural está em documentar a relação entre lugar, prática e memória."
+      ]
+    ]
   }
 ]
