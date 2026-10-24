@@ -15,6 +15,10 @@ for(const file of files){
  }
  if(/inteligência artificial|futuras edições digitais/i.test(html))issues.push(file+': unwanted public copy');
  if(!html.includes('aria-current="page"'))issues.push(file+': missing navigation state');
+ for(const link of html.matchAll(/<a\b[^>]*href="https?:[^"]+"[^>]*>/g)) {
+  if(!link[0].includes('target="_blank"') || !link[0].includes('noopener'))issues.push(file+': external link does not preserve reader tab');
+ }
+ if(['mantova.html','viajar-de-trem-na-italia.html','comida-italiana-por-regiao.html'].includes(file) && !html.includes('<iframe'))issues.push(file+': missing map');
 }
 console.log(JSON.stringify({pages:files.length,issues},null,2));
 if(issues.length)process.exitCode=1;
