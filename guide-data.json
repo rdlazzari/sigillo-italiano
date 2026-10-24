@@ -1,0 +1,39 @@
+{
+  "verified": "24/10/2026",
+  "restaurants": [
+    {
+      "id": "artigiano",
+      "name": "Artigiano",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "kind": "Restaurante",
+      "connection": "Proposta regional declarada",
+      "summary": "Massas artesanais e uma proposta de cozinha clássica da Emília-Romanha, declarada pela própria casa.",
+      "why": "A apresentação oficial associa a cozinha à Emília-Romanha e destaca a produção artesanal de massas. A ficha do Guia Michelin também identifica essa relação regional. A inclusão registra esse vínculo documental; não é resultado de uma visita do Sigillo.",
+      "address": "Av. Epitácio Pessoa, 204 — Ipanema, Rio de Janeiro / RJ",
+      "website": "https://www.restauranteartigiano.com/",
+      "sources": [
+        {"title": "Apresentação oficial do restaurante", "url": "https://www.restauranteartigiano.com/"},
+        {"title": "Endereço no site oficial", "url": "https://www.restauranteartigiano.com/localizacao"},
+        {"title": "Ficha no Guia Michelin", "url": "https://guide.michelin.com/us/en/rio-de-janeiro-region/rio-de-janeiro/restaurant/artigiano"}
+      ]
+    },
+    {
+      "id": "piadino",
+      "name": "Piadino · Pátio Paulista",
+      "city": "São Paulo",
+      "state": "SP",
+      "kind": "Cozinha casual",
+      "connection": "Referência a um preparo regional",
+      "summary": "Uma leitura brasileira da piadina, em uma rede anteriormente conhecida como Piadina Romagnola.",
+      "why": "O vínculo está no preparo que orienta a proposta da rede, e não na afirmação de que todo o cardápio representa a região. A Abrasel documenta a ligação da antiga Piadina Romagnola com Rimini; o site atual confirma a continuidade como Piadino. A unidade do Pátio Paulista tem endereço identificado pelo próprio shopping.",
+      "address": "Rua Treze de Maio, 1947 — Shopping Pátio Paulista, Piso Paraíso, Bela Vista, São Paulo / SP",
+      "website": "https://piadino.com.br/",
+      "sources": [
+        {"title": "Piadino · site oficial e unidades", "url": "https://piadino.com.br/"},
+        {"title": "Unidade Pátio Paulista · Iguatemi", "url": "https://iguatemi.com.br/shoppingpatiopaulista/lojas-e-alimentacao/piadino-romagnola"},
+        {"title": "História da antiga Piadina Romagnola · Abrasel SP", "url": "https://www.guiaabraselsp.com.br/piadina-romagnola---shopping-eldorado"}
+      ]
+    }
+  ]
+}
